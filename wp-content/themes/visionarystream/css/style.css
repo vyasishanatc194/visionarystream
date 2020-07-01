@@ -1,0 +1,1143 @@
+@charset "utf-8";
+/*
+	Title # Visionary Stream
+	Date  # 30 May 2018
+*/
+
+
+*{ padding: 0px; margin: 0px; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{ padding: 0px; margin: 0px; background: #f8f8f8; font-family: Arial, Helvetica, sans-serif; font-weight: normal; }
+html { font-size:16px;}
+.header-full{ width: 100%; float: left; position: relative; background: #fff; z-index:999; }
+.body-full{ width: 100%; float: left; position: relative; background: #fff; }
+.body-full2{ width: 100%; float: left; position: relative; background: #fff url(../images/vs-body.gif) left top repeat-x; }
+.footer-full{ width: 100%; float: left; position: relative; background: #f8f8f8; }
+
+
+
+.wrapper-1700{
+			  width: 100%;
+			  padding-left:15px;
+			  padding-right:15px;
+			  margin: auto;
+			  text-align: left;
+			}
+
+.wrapper-1420{
+			  width: 100%;
+			  padding-left:15px;
+			  padding-right:15px;
+			  margin: auto;
+			  text-align: left;
+			}
+
+.wrapper-1120{
+			  width: 92%;
+			  margin: auto;
+			  text-align: left;
+			}
+			
+.wrapper-1000{
+			  width: 100%;
+			  margin: auto;
+			  text-align: left;
+			}
+	
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font/FontAwesome/fontawesome-webfont.eot?v=4.5.0');
+  src: url('../font/FontAwesome/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../font/FontAwesome/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../font/FontAwesome/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../font/FontAwesome/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../font/FontAwesome/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'cocogooseregular';
+    src: url('../font/Cocogoose-Regular/cocogoose_trial-webfont.woff2') format('woff2'),
+         url('../font/Cocogoose-Regular/cocogoose_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../font/Raleway-Regular/raleway-regular-webfont.woff2') format('woff2'),
+         url('../font/Raleway-Regular/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('../font/Raleway-Medium/raleway-medium-webfont.eot');
+    src: url('../font/Raleway-Medium/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Raleway-Medium/raleway-medium-webfont.woff2') format('woff2'),
+         url('../font/Raleway-Medium/raleway-medium-webfont.woff') format('woff'),
+         url('../font/Raleway-Medium/raleway-medium-webfont.ttf') format('truetype'),
+         url('../font/Raleway-Medium/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('../font/Raleway-SemiBold/raleway-semibold-webfont.woff2') format('woff2'),
+         url('../font/Raleway-SemiBold/raleway-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../font/Raleway-Bold/raleway-bold-webfont.woff2') format('woff2'),
+         url('../font/Raleway-Bold/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../font/Montserrat-Light/montserrat-light_allfont.net-webfont.woff2') format('woff2'),
+         url('../font/Montserrat-Light/montserrat-light_allfont.net-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('../font/Montserrat-Medium/montserrat-medium-webfont.woff2') format('woff2'),
+         url('../font/Montserrat-Medium/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'continuum_mediumregular';
+    src: url('../font/Continuum-Medium/continuum_medium-webfont.woff2') format('woff2'),
+         url('../font/Continuum-Medium/continuum_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Knockout HTF30JuniorWelterwt Regular';
+    src: url('../font/Knockout-HTF30Junior-Welterwt-Regular/Knockout HTF30JuniorWelterwt Regular.eot');
+    src: url('../font/Knockout-HTF30Junior-Welterwt-Regular/Knockout HTF30JuniorWelterwt Regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/Knockout-HTF30Junior-Welterwt-Regular/Knockout HTF30JuniorWelterwt Regular.woff') format('woff'),
+         url('../font/Knockout-HTF30Junior-Welterwt-Regular/Knockout HTF30JuniorWelterwt Regular.ttf') format('truetype'),
+         url('../font/Knockout-HTF30Junior-Welterwt-Regular/Knockout HTF30JuniorWelterwt Regular.svg#Knockout HTF30JuniorWelterwt Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_blackregular';
+    src: url('../font/Gotham-Black/gotham-black-webfont.eot');
+    src: url('../font/Gotham-Black/gotham-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Gotham-Black/gotham-black-webfont.woff') format('woff'),
+         url('../font/Gotham-Black/gotham-black-webfont.ttf') format('truetype'),
+         url('../font/Gotham-Black/gotham-black-webfont.svg#gotham_blackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+img{ max-width:100%; height:auto; }
+
+
+h1{ font-family: Arial, Helvetica, sans-serif; font-size: 2.25rem; color: #000; line-height: 2.5rem; margin-top:0px; margin-bottom: 20px; }
+h2{ font-family: Arial, Helvetica, sans-serif; font-size: 1.875rem; color: #000; line-height: 2.187rem; margin-top:0px; margin-bottom: 20px; }
+h3{ font-family: Arial, Helvetica, sans-serif; font-size: 1.5rem; color: #000; line-height: 1.875rem; margin-top:0px; margin-bottom: 20px; }
+h4{ font-family: Arial, Helvetica, sans-serif; font-size: 1.125rem; color: #000; line-height: 1.5rem; margin-top:0px; margin-bottom: 20px; }
+h5{ font-family: Arial, Helvetica, sans-serif; font-size: 1rem; color: #000; line-height: 1.125rem; margin-top:0px; margin-bottom: 20px; }
+h6{ font-family: Arial, Helvetica, sans-serif; font-size: 0.75rem; color: #000; line-height: 1.125rem; margin-top:0px; margin-bottom: 20px; }
+p{ font-family: Arial, Helvetica, sans-serif; font-size: 0.9375rem; color: #000; line-height: 1.375rem; margin-top:0px; margin-bottom: 20px; }
+
+
+/* --------------- Start Text ------------------- */
+
+.prepand{ padding-top:5px; }
+.prepand2{ padding-top:10px; }
+.prepand3{ padding-top:15px; }
+.prepand4{ padding-top:20px; }
+.prepand5{ padding-top:25px; }
+
+
+.margin-top{ margin-top:20px; }
+.margin-bottom{ margin-bottom:25px; }
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Block Body <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+section.block-body{
+					 width: 100%;
+					 padding: 30px 0px;
+					 float: left;
+					 position: relative;
+					}
+					
+.main-body{
+			width: 100%;
+			float: left;
+			position: relative;
+			}
+				
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Block Body <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Header <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+	
+.logo{
+	 width:100%;
+	 padding:20px 0px;
+	 float:left;
+	 position:relative;
+	 text-align:center;
+	}
+	
+	.logo img{ width:291px; height:auto; }
+	
+.nav-body{	
+			width:100%;
+			padding-bottom:20px;
+			float:left;
+			position:relative;
+			}	
+
+nav {
+	width: 100%;
+	padding:0px 0px 0px 0px;
+	float: left;
+	position: relative;	
+	text-align: center;
+}
+	   
+	
+	nav ul { margin: 0px; padding: 0px; }
+
+nav ul li { width: 100%; border: none; text-align: center; position: relative; display: inline-block; list-style: none; font-family: 'cocogooseregular'; font-size: 0.593rem; font-weight: normal; color: #69737a; line-height:1.25rem; text-transform:uppercase; border-left: 0px; margin: 0px; padding: 0px; }
+		nav ul li a{ padding: 5px 0px; }
+
+	nav ul li a, nav ul li span{ display: block; position: relative; padding: 0px 5px 0px 5px; color: #788187; text-decoration: none; }
+
+	nav ul li a:link, nav ul li a:visited { color: #69737a; }
+
+	nav ul li:hover > a { background: none; color:#000; text-decoration:none; }
+	
+	nav ul li a.fixed { background: none; color:#000; }
+	
+	nav ul li:first-child{ border:0px; }
+	
+	nav ul li span{ font-family: 'ralewayregular'; font-size:0.781rem; text-transform:none; padding:0px 0px !important; }
+	
+
+    nav ul li ul {
+				width: 100%;
+				position: relative;
+				border-top: 2px solid #eee;
+				display: none;
+				}
+
+    nav ul li:hover > ul {
+						display: block;
+						left: 0 !important;
+						top: auto;
+    					}
+
+    nav ul ul li:hover > ul {
+							left: 0 !important;
+							top: auto;
+							}
+		
+
+nav{
+		display: none;
+	}	
+	
+.btn{
+    float: left;
+    position: relative;
+    padding: 0px 0px;
+    display: block;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    color: #555d67;
+}
+
+.btn .fa{font-size:30px !important;}
+
+#myslidemenu2{
+	display: none;
+	}
+	
+	
+.header-cart{
+		  width:75px;
+		  float:right;
+		  position:absolute;
+		  right:2%;
+		  top:0%;
+		  z-index:9999;
+		  text-align:center;
+		}
+	
+	.header-cart img{ width:30px; height:30px; float:left; vertical-align:middle; margin:0px 5px 0px 8px; }
+	
+	.header-cart h3{ font-family: 'ralewaybold'; font-size:0.5rem; font-weight:normal; color:#030a13; line-height:0.75rem; margin-bottom:0px; width:100%; float:left; text-transform:uppercase; margin-top:0px; }
+		.header-cart h3 a{ color:#030a13; }
+		
+	.header-cart p{ font-family: 'cocogooseregular'; font-size:0.312rem; font-weight:normal; color:#fff; line-height:0.375rem; margin-bottom:0px; background:#f48706; width:26px; min-height:26px; border-radius:50%; padding:5px 5px; text-transform:uppercase; text-align:center; float:left; }
+	.header-cart p span{ font-size:1.028rem; line-height:0.75rem; display: inline-block; padding-top: 2px; }
+		.header-cart p a{ color:#fff; }
+
+				
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Header <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Top <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+section.top{
+			 width: 100%;
+			 padding: 30px 0px 10px;
+			 float: left;
+			 position: relative;
+			 text-align:center;
+			}
+			
+	section.top img{ width:100%; }
+			
+	section.top h1{ font-family: 'cocogooseregular'; font-size:2.4rem; font-weight:normal; color:#3c454c; line-height:2.375rem; text-transform:uppercase; margin-bottom:0px; }
+	section.top h1 b{ font-size:2.475rem; color:#f8a310; font-weight:normal; }			
+	
+	section.top ul{ padding:0px; margin:0px; margin-bottom:35px; }
+	section.top li{ padding:0px; margin:0px; list-style:none; display:inline-block; width:10px; height:10px; border-radius:50%; background:#3c454c; margin:0px 5px; }
+		section.top li a{ display:block; }	
+		
+section.top2{
+			 width: 100%;
+			 padding: 35px 0px 31px;
+			 float: left;
+			 position: relative;
+			 text-align:center;
+			}
+			
+	section.top2 h2{ font-family: 'cocogooseregular'; font-size:2.663rem; font-weight:normal; color:#3c454c; line-height:3.1rem; text-transform:uppercase; margin-bottom:10px; }
+	
+	
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Top <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Index Body <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+section.index-body{
+					width:100%;
+					padding:45px 0px 30px;
+					float:left;
+					position:relative;
+					text-align:center;
+					}
+					
+		section.index-body h2{ font-family: 'cocogooseregular'; font-size:1.625rem; font-weight:normal; color:#3d3d40; line-height:1.875rem; margin-bottom:5px; }
+			section.index-body h2 img{ width:192px; margin-bottom:15px; }
+		section.index-body h2 span{ color:#747474; }
+		section.index-body h3{ font-family: 'ralewaybold'; font-size:1.187rem; font-weight:normal; color:#3d3d40; line-height:1.25rem; margin-bottom:10px; }
+		section.index-body h3 strong{ font-size:1rem; font-weight:normal; }
+		
+		section.index-body p{ font-family: 'ralewaymedium'; font-size:0.8125rem; font-weight:normal; color:#3d3d40; line-height:1.187rem; margin-bottom:25px; }
+		
+section.index-body2{
+					width:100%;
+					padding:45px 0px 30px;
+					float:left;
+					position:relative;
+					text-align:center;
+					}
+					
+		section.index-body2 h2{ font-family: 'cocogooseregular'; font-size:1.625rem; font-weight:normal; color:#3d3d40; line-height:1.875rem; text-transform:uppercase; margin-bottom:0px; }
+		section.index-body2 h2 span{ color:#747474; }
+		section.index-body2 h3{ font-family: 'ralewaybold'; font-size:1.187rem; font-weight:normal; color:#3d3d40; line-height:1.562rem; margin-bottom:10px; }
+		section.index-body2 h3 strong{ font-size:1.25rem; font-weight:normal; }
+		
+		section.index-body2 p{ font-family: 'ralewaymedium'; font-size:0.812rem; font-weight:normal; color:#3d3d40; line-height:1.25rem; margin-bottom:25px; }		
+		section.index-body2 p strong{ font-family: 'ralewaybold'; font-weight:normal; }
+		section.index-body2 p br{ display:none; }
+		
+		.tweet-icon{ margin-bottom:10px; }
+			.tweet-icon img{ width:30px; height:30px; }
+			
+			
+		/*.towards-image{
+					padding:45px 0px 0px 0px;
+				  }	*/
+		
+			
+section.index-vision{
+					width:100%;
+					padding:20px 0px 44px;
+					float:left;
+					position:relative;
+					text-align:center;
+					}
+					
+		section.index-vision h2{ font-family: 'cocogooseregular'; font-size:1.625rem; font-weight:normal; color:#3d3d40; line-height:1.875rem; margin-bottom:5px; }
+			section.index-vision h2 img{ width:192px; margin-bottom:15px; }
+		section.index-vision h2 span{ color:#747474; }
+		section.index-vision h3{ font-family: 'ralewaybold'; font-size:1.187rem; font-weight:normal; color:#3d3d40; line-height:1.25rem; margin-bottom:10px; }
+		section.index-vision h3 strong{ font-size:1rem; font-weight:normal; }
+		
+		section.index-vision p{ font-family: 'ralewaymedium'; font-size:0.8125rem; font-weight:normal; color:#3d3d40; line-height:1.187rem; margin-bottom:25px; }
+		
+.glass-body{
+			width:100%;
+			padding:14px 0px 0px;
+			float:left;
+			position:relative;
+			text-align:center;
+			}
+			
+	.glass-body h3{ font-family: 'cocogooseregular' !important; font-size:1.25rem !important; font-weight:normal; color:#3c454c; line-height:1.562rem !important; background:url(../images/vs-line.gif) center left repeat-x; width:100%; display:inline-block; margin-bottom:0px !important; }
+		.glass-body h3 span{ background:#fff; padding:0px 8px; }
+		
+	.glass-body h4{ font-family: 'cocogooseregular'; font-size:0.937rem; font-weight:normal; color:#3c454c; line-height:0.937rem; text-transform:uppercase; margin-bottom:0px; }
+	
+	.glass-left{
+				width:100%;
+				padding:20px 10px 20px;
+				float:left;
+				position:relative;
+				text-align:center;
+				}
+				
+		.glass-left img{ width:246px; margin-bottom:5px; }
+				
+		.glass-left p{ font-family: 'cocogooseregular' !important; font-size:0.812rem !important; font-weight:normal; color:#7d7d7d !important; line-height:1.125rem !important; text-transform:uppercase; margin-bottom:0px !important; width:100%; }
+			.glass-left p a{ color:#7d7d7d !important; }
+		.glass-left p strong{ color:#000; font-weight:normal; }		
+		.glass-left p span{ font-family: 'ralewayregular'; text-transform:none; }		
+				
+	.glass-right{
+				width:100%;
+				padding:20px 10px 20px;
+				float:right;
+				position:relative;
+				text-align:center;
+				}
+				
+		.glass-right img{ width:246px; margin-bottom:5px; }
+				
+		.glass-right p{ font-family: 'cocogooseregular' !important; font-size:0.8125rem !important; font-weight:normal; color:#7d7d7d !important; line-height:1.125rem !important; text-transform:uppercase; margin-bottom:0px !important; width:100%; }
+			.glass-right p a{ color:#7d7d7d !important; }
+		.glass-right p strong{ color:#000; font-weight:normal; }		
+		.glass-right p span{ font-family: 'ralewayregular'; text-transform:none; }
+		
+		
+	.add-cart{
+			  width:86px;
+			  padding:7px 8px 0px 0px;
+			  background:url(../images/vs-add-cart4.png) no-repeat;
+			  min-height:38px;
+			  position:relative;
+			  display:inline-block;
+			  font-family: 'ralewaybold'; font-size:0.562rem; font-weight:normal; color:#fff; line-height:.8125rem; text-transform:uppercase;
+			  margin-top:10px;
+			  }
+			  
+		.add-cart a{ color:#fff; }
+		
+	.add-cart2{
+			  width:86px;
+			  padding:7px 8px 0px 0px;
+			  background:url(../images/vs-add-cart5.png) no-repeat;
+			  min-height:38px;
+			  position:relative;
+			  display:inline-block;
+			  font-family: 'ralewaybold'; font-size:0.562rem; font-weight:normal; color:#282828; line-height:0.812rem; text-transform:uppercase;
+			  margin-top:10px;
+			  }
+			  
+		.add-cart2 a{ color:#282828; }
+			  
+	.buy-now{
+			  width:88px;
+			  padding:7px 0px 0px 8px;
+			  background:url(../images/vs-buy-now3.png) no-repeat;
+			  min-height:38px;
+			  position:relative;
+			  display:inline-block;
+			  font-family: 'ralewaybold'; font-size:0.562rem; font-weight:normal; color:#282828; line-height:0.812rem; text-transform:uppercase;
+			  margin-top:10px;
+			  }
+			  
+		.buy-now a{ color:#282828; }
+				
+		
+.icon-full{
+			width:100%;
+			padding:0px 20px 50px;
+			float:left;
+			position:relative;
+			}
+			
+	.icon-full img{ width:100%; }
+			  
+			  
+			  
+.foundations-text{
+				  width:100%;
+				  padding:20px 0px 0px;
+				  float:left;
+				  position:relative;
+				}
+				
+	.foundations-text p{ font-family: 'ralewaymedium'; font-size:0.687rem !important; font-weight:normal; color:#1a1f23 !important; line-height:1.062rem !important; margin-bottom:20px; }
+	
+.foundations-image{
+				  width:100%;
+				  padding:10px 0px 0px;
+				  float:left;
+				  position:relative;
+				  text-align:center;
+				}				
+				
+	.foundations-image ul{ padding:0px; margin:0px; }
+	.foundations-image li{ padding:0px; margin:0px; list-style:none; display:inline-block; width:100%; float:left; padding:0px 0px; margin-bottom:20px; }
+	.foundations-image li img{ width:185px; height:106px; }
+	
+.foundations-image ul.foundations-menu{ padding:0px; margin:0px; width:100%; float:left; text-align:center; margin-top:20px; }
+	.foundations-image ul.foundations-menu li{ padding:0px; margin:0px; list-style:none; font-family: 'cocogooseregular'; font-size:0.587rem; font-weight:normal; color:#4c5a64; line-height:1.25rem; margin-bottom:5px; display:inline-block; text-transform:uppercase; float:none; padding:0px 0px; }	
+		.foundations-image ul.foundations-menu li a{ color:#4c5a64; margin:0px 0px; display:block; width:100%; }	
+			.foundations-image ul.foundations-menu li a:hover{ color:#4c5a64; text-decoration:none; }
+			
+.glass-margin{ margin-top:100px; }
+	
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Index Body <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+footer{
+	 width: 100%;
+	 padding: 30px 0px;
+	 float: left;
+	 position: relative;
+	 text-align:center;
+	}
+	
+	footer img{ width:36px; height:36px; margin:0px 3px; }
+	
+	footer h2{ font-family: 'cocogooseregular'; font-size:1rem; font-weight:normal; color:#273038; line-height:1.125rem; margin-bottom:15px; text-transform:uppercase; }	
+	
+	footer p{ font-family: 'cocogooseregular'; font-size:0.625rem; font-weight:normal; color:#1a1f23; line-height:1.25rem; margin-bottom:15px; text-transform:uppercase; }	
+		footer p a{ color:#1a1f23; }
+				
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Starr Intro <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.intro-full{ width:100%; float:left; position:relative; background:#eff3f5; border-top:3px solid #fff; border-bottom:194px solid #fff; }
+.intro-footer-full{ width:100%; float:left; position:relative; background:#fff url(../images/vs-intro-footer.png) center top no-repeat; background-size:100% 100%; }
+
+.intro-wraper{
+			width:94%;
+			margin:auto;
+			text-align:left;
+			}
+			
+.intro-block{
+			width:100%;
+			padding:50px 0px 17px;
+			float:left;
+			position:relative;
+			text-align:center;
+			}
+			
+	.intro-block h1{ font-family: 'continuum_mediumregular'; font-size:1.6rem; font-weight:normal; color:#424b56; line-height:1.6rem; background:url(../images/vs-line.gif) center left repeat-x; width:100%; display:inline-block; margin-bottom:50px; text-transform:uppercase; letter-spacing: 3px; }
+		.intro-block h1 span{ background:#eff3f5; padding:0px 5px; }
+		
+
+.intro-left{
+			width:100%;
+			float:left;
+			position:relative;
+			text-align:center;
+			margin-top:20px;
+			margin-bottom:15px;
+			}
+			
+	.intro-left img{ margin-bottom:30px; }
+			
+	.intro-left h2{ font-family: 'Knockout HTF30JuniorWelterwt Regular'; font-size:1rem; font-weight:normal; color:#424b56; line-height:1rem; text-transform:uppercase; margin-bottom:15px; }
+		.intro-left h2 a{ color:#424b56; }	
+	
+	.intro-left h3{ font-family: 'ralewaysemibold'; font-size:0.78625rem; font-weight:normal; color:#424b56; line-height:0.89rem; margin-bottom:2px; }
+		.intro-left h3 a{ color:#424b56; }	
+	
+	.intro-left p{ font-family: 'ralewaymedium'; font-size:0.69625rem; font-weight:normal; color:#424b56; line-height:0.89rem; margin-bottom:5px; }	
+		.intro-left p a{ color:#424b56; }
+		
+.intro-right{
+			width:100%;
+			float:left;
+			position:relative;
+			text-align:center;
+			margin-top:20px;
+			margin-bottom:30px;
+			}
+			
+	.intro-right img{ margin-bottom:30px; }
+			
+	.intro-right h2{ font-family: 'Knockout HTF30JuniorWelterwt Regular'; font-size:1rem; font-weight:normal; color:#424b56; line-height:1rem; text-transform:uppercase; margin-bottom:14px; }
+		.intro-right h2 a{ color:#424b56; }	
+	
+	.intro-right h3{ font-family: 'ralewaysemibold'; font-size:0.78625rem; font-weight:normal; color:#424b56; line-height:0.89rem; margin-bottom:2px; }
+		.intro-right h3 a{ color:#424b56; }	
+	
+	.intro-right p{ font-family: 'ralewaymedium'; font-size:0.69625rem; font-weight:normal; color:#424b56; line-height:0.89rem; margin-bottom:5px; }	
+		.intro-right p a{ color:#424b56; }
+		
+.intro-img{ margin-top:0px; margin-bottom:0; }
+	.intro-img img{ width:116px; height:auto; margin-bottom:21px; }
+.intro-img2{ margin-top:0px; }
+	.intro-img2 img{ width:84px; height:auto; margin-bottom:13px; }
+.intro-img3{ margin-top:7px; }
+	.intro-img3 img{ width:112px; height:auto; margin-bottom:11px; }
+		
+		
+.intro-bottom{
+			width:100%;
+			padding:74px 0px 0px 0px;
+			float:left;
+			position:relative;
+			text-align:center;
+			}
+			
+	.intro-bottom p{ font-family: 'ralewaymedium'; font-size:0.45875rem; font-weight:normal; color:#141619; line-height:0.8rem; margin-bottom:26px; }	
+		.intro-bottom p a{ color:#738892; font-family: 'ralewaybold'; font-weight:normal; font-size:0.73625rem; padding:5px 10px; margin-top:12px; display:inline-block; }
+		
+		
+.intro-footer{
+			 width: 100%;
+			 padding: 12px 0px 15px;
+			 float: left;
+			 position: relative;
+			 text-align:center;
+			}
+	
+	.intro-footer img{ width:42px; height:42px; margin:5px 9px; }
+	
+	.intro-footer h2{ font-family: 'cocogooseregular'; font-size:1rem; font-weight:normal; color:#273038; line-height:1.25rem; margin-bottom:10px; text-transform:uppercase; }	
+	
+	.intro-footer p{ font-family: 'gotham_blackregular'; font-size:0.59375rem; font-weight:normal; color:#1a1f23; line-height:1rem; margin-bottom:10px; text-transform:uppercase; }	
+		.intro-footer p a{ color:#1a1f23; }
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Intro <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Starr SignIn <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.signin-header-full{ width: 100%; float: left; position: relative; background: #fff; z-index:999; }
+
+.signin-block{
+			  width:100%;
+			  padding:40px 0px 0px;
+			  float:left;
+			  position:relative;
+			}
+
+.signin-left{
+			width:100%;
+			float:left;
+			position:relative;
+			text-align:center;
+			margin:0px 0px 10px;
+			}
+			
+	.signin-left h2{ font-family: 'cocogooseregular'; font-size:1.625rem; font-weight:normal; color:#282828; line-height:1.875rem; text-transform:uppercase; margin-bottom:20px; }
+			
+	.signin-left p{ font-family: 'ralewaymedium'; font-size:1.187rem; font-weight:normal; color:#282828; line-height:1.25rem; margin-bottom:20px; }	
+		.signin-left p a{ color:#282828; }	
+		
+.signin-right{
+			width:100%;
+			padding:30px 0px 20px 0px;
+			border-left:0px;
+			border-top:2px solid #a2a4a6;
+			float:right;
+			position:relative;
+			text-align:center;
+			margin:0px 0px;
+			}
+			
+	.signin-right h2{ font-family: 'cocogooseregular'; font-size:1.625rem; font-weight:normal; color:#282828; line-height:1.875rem; text-transform:uppercase; margin-bottom:20px; }
+			
+	.signin-right p{ font-family: 'ralewaymedium'; font-size:1.187rem; font-weight:normal; color:#45a0db; line-height:1.25rem; text-transform:uppercase; margin-bottom:20px; }	
+		.signin-right p a{ color:#45a0db; }	
+		
+.signin-input{ font-family: 'ralewaymedium'; font-size:1.125rem; font-weight:normal; color:#282828; line-height:1.25rem; width:100%; padding:15px 15px; background:#fff; border:2px solid #5e646d; text-transform:uppercase; border-radius:0px; margin-bottom:20px; }	
+		
+.checkout-button{ font-family: 'ralewaymedium'; font-size:1.125rem; font-weight:normal; color:#fff; line-height:1.875rem; width:100%; padding:15px 5px; background:#45a0db url(../images/vs-checkout.gif) repeat; border:2px solid #3987ba; text-align:center; text-transform:uppercase; border-radius:0px; margin-bottom:20px; cursor:pointer; }
+	
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End SignIn <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Shopping Cart <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.cart-full{ width:100%; float:left; position:relative; background:#b8bec1 url(../images/vs-cart-bg.jpg) top center no-repeat; background-size:cover; }
+.shopping-cart-full{ width:100%; float:left; position:relative; background:#fff; border-bottom:8px solid #b8bfc1; }
+
+.cart-font{ font-family: 'cocogooseregular'; font-size:1.125rem; font-weight:normal; color:#5c5c5c; line-height:1.125rem; margin-bottom:5px; }	
+	.cart-font a{ color:#5c5c5c; }
+		.cart-font a:hover{ color:#5c5c5c; text-decoration:none; }
+	.cart-font img{ vertical-align:middle; }
+
+.cart-body{
+			width:100%;
+			padding:30px 0px;
+			float:left;
+			position:relative;
+			text-align:center;
+			}
+			
+	.cart-body img{ margin:0px 0px 20px; }
+			
+	.cart-body h2{ font-family: 'ralewaymedium'; font-size:1.875rem; font-weight:normal; color:#282828; line-height:2.1875rem; margin-bottom:20px; }
+	.cart-body h2 strong{ font-family: 'ralewaybold'; font-weight:normal; }
+	.cart-body p{ font-family: 'ralewaymedium'; font-size:1.125rem; font-weight:normal; color:#282828; line-height:1.375rem; font-style:italic; margin-bottom:0px; }
+	
+	
+.cart-table{
+			width:100%;
+			padding:30px 0px;
+			float:left;
+			position:relative;
+			}
+			
+	.cart-table table tr td{ width:100%; float:left; text-align:center; padding:10px 0px; text-align:center; }
+				
+	.cart-table table tr td h3{ font-family: 'cocogooseregular'; font-size:1.125rem; font-weight:normal; color:#5c5c5c; line-height:1.125rem; text-transform:uppercase; margin-bottom:14px; }	
+	.cart-table table tr td p{ font-family: 'ralewayregular'; font-size:1.125rem; font-weight:normal; color:#5c5c5c; line-height:1.125rem; margin-bottom:5px; }	
+		.cart-table table tr td p a{ color:#5c5c5c; }	
+		
+	.cart-image img{ width:70%; }
+	
+		
+.cart-bottom{
+			width:100%;
+			padding:30px 10px;
+			float:left;
+			position:relative;
+			text-align:center;
+			}
+			
+	.cart-bottom p{ font-family: 'cocogooseregular'; font-size:1.125rem; font-weight:normal; color:#606365; line-height:1.5625rem; text-transform:uppercase; margin-bottom:20px; }
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Shopping Cart <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Prescription <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.prescription-menu{
+					width:100%;
+					padding:30px 0px 50px 0px;
+					float:left;
+					position:relative;
+					text-align:center;
+					}
+					
+	.prescription-menu ul{ padding:0px; margin:0px; }
+	.prescription-menu li{ padding:0px; margin:0px; list-style:none; display:inline-block; font-family: 'ralewaymedium'; font-size:1.25rem; font-weight:normal; color:#000; font-weight:normal; line-height:1.25rem; text-transform:uppercase; margin-bottom:20px; margin-left:10px; margin-right:10px; }
+		.prescription-menu li a{ color:#000; }
+			.prescription-menu li a:hover{ font-family: 'cocogooseregular'; color:#000; border-bottom:4px solid #4b4b4b; text-decoration:none; }
+	.prescription-menu li a.fixed{ font-family: 'cocogooseregular'; color:#000; border-bottom:4px solid #4b4b4b; }
+	
+	.prescription-menu li:first-child{ margin-left:10px; }
+	
+.prescription-body{
+					width:100%;
+					padding:0px 5% 30px 5%;
+					float:left;
+					position:relative;
+					}
+					
+	.prescription-body h2, .woocommerce-billing-fields h2{ font-family: 'cocogooseregular'; font-size:1.125rem; font-weight:normal; color:#282828; line-height:1.5625rem; text-transform:uppercase; padding-left:0px; margin-bottom:20px; }
+	
+	.prescription-body hr{ width:100%; float:left; border-bottom:2px solid #535353; margin-top:0px; margin-bottom:30px; }
+	
+.prescription-box{
+				width:100%;
+				padding:20px 60px 20px 20px;
+				background:url(../images/vs-arrow.png) right center no-repeat;
+				float:left;
+				position:relative;
+				border:2px solid #787f86;
+				margin-bottom:20px;
+				}
+				
+	.prescription-box h3{ font-family: 'ralewaybold'; font-size:0.9375rem; font-weight:normal; color:#383838; line-height:1.25rem; text-transform:uppercase; margin-bottom:10px; }
+	.prescription-box p{ font-family: 'ralewaysemibold'; font-size:0.8125rem; font-weight:normal; color:#383838; line-height:1.25rem; margin-bottom:0px; }
+	
+.prescription-table{
+				width:100%;
+				padding:35px 5%;
+				background:#f8f8f8;
+				float:left;
+				position:relative;
+				margin-bottom:30px;
+				}
+				
+	.prescription-table table tbody tr td{ font-family: 'ralewaysemibold'; font-size:0.8125rem; font-weight:normal; color:#545555; line-height:1.25rem; text-transform:uppercase; padding:10px 0px; }
+	
+	.prescription-table table tfoot tr td{ font-family: 'cocogooseregular'; font-size:0.8125rem; font-weight:normal; color:#545555; line-height:1.375; text-transform:uppercase; padding:10px 0px; border-top:2px solid #535353; }
+	.prescription-table table tfoot tr td span{ font-family: 'ralewaysemibold'; font-size:0.8125rem; line-height:0.8125rem; }
+	
+.review-button{ font-family: 'cocogooseregular'; font-size:0.9375rem; font-weight:normal; color:#fff; line-height:1.875rem; width:100%; padding:10px 10px; background:#45a0db url(../images/vs-checkout.gif) repeat; border:2px solid #3987ba; text-align:center; text-transform:uppercase; border-radius:0px; margin-bottom:0px; cursor:pointer; }
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Prescription <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Information <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.update-text{ font-family: 'ralewaysemibold'; font-size:0.9375rem; font-weight:normal; color:#45a0db; line-height:1.375rem; margin-bottom:20px; }
+	.update-text a{ color:#45a0db; }
+	.update-text input{ margin-right:10px; }
+	.update-text img{ float:right; }
+
+.information-input, .woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea{ font-family: 'ralewaysemibold'; font-size:0.9375rem; font-weight:normal; color:#383838; line-height:1.25rem; width:100%; padding:10px 10px; background:#f8f8f8; border:2px solid #e2e5e6; text-transform:none; border-radius:0px; margin-bottom:20px; }
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Information <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.woocommerce-billing-fields h2, .woocommerce form .form-row label, #ship-to-different-address{ text-align:left; text-transform:uppercase;}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Popup <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.popup-body{
+			 width: 1100px;
+			 padding: 60px 20px;
+			 background:url(../images/vs-popup-bg.png) repeat;
+			 border:8px solid #afafaf;
+			 border-radius:30px;
+			 float: left;
+			 z-index:9999;
+			 text-align:center;
+			 display:none;
+			}
+	
+	
+	.popup-body h2{ font-family: 'montserratmedium'; font-size:31px; font-weight:normal; color:#fff; line-height:30px; margin-bottom:20px; text-transform:uppercase; }	
+	.popup-body h2 a{ color:#fff; }
+	
+	.popup-body p{ font-family: 'montserratlight'; font-size:31px; font-weight:normal; color:#fff; line-height:30px; margin-bottom:10px; }	
+		.popup-body p a{ color:#fff; }	
+		
+.popup-cart{
+		  width:130px;
+		  display:inline-block;
+		  z-index:9999;
+		  text-align:center;
+		  margin-bottom:15px;
+		}
+	
+	.popup-cart img{ float:left; vertical-align:middle; margin:0px 5px; }
+	
+	.popup-cart p{ font-family: 'cocogooseregular'; font-size:11px; font-weight:normal; color:#fff; line-height:16px; margin-bottom:0px; background:#f48706; width:50px; min-height:50px; border-radius:50%; padding:5px 5px; text-transform:uppercase; text-align:center; float:left; }
+	.popup-cart p span{ font-size:32px; line-height:25px; }
+		.popup-cart p a{ color:#fff; }
+	
+	/*.popup-cart h3{ font-family: 'ralewaybold'; font-size:15px; font-weight:normal; color:#030a13; line-height:20px; margin-bottom:0px; width:100%; float:left; text-transform:uppercase; margin-top:5px; }
+		.popup-cart h3 a{ color:#030a13; }*/
+.popup-body-twitter{
+			 width: 1100px;
+			 padding: 60px 20px;
+			 background:url(../images/vs-popup-bg.png) repeat;
+			 border:8px solid #afafaf;
+			 border-radius:30px;
+			 float: left;
+			 z-index:9999;
+			 text-align:center;
+			 display:none;
+			}
+	
+	
+	.popup-body-twitter h2{ font-family: 'montserratmedium'; font-size:31px; font-weight:normal; color:#fff; line-height:30px; margin-bottom:20px; text-transform:uppercase; }	
+	.popup-body-twitter h2 a{ color:#fff; }
+	
+	.popup-body-twitter p{ font-family: 'montserratlight'; font-size:31px; font-weight:normal; color:#fff; line-height:30px; margin-bottom:10px; }	
+		.popup-body-twitter p a{ color:#fff; }	
+		
+.popup-cart{
+		  width:130px;
+		  display:inline-block;
+		  z-index:9999;
+		  text-align:center;
+		  margin-bottom:15px;
+		}
+	
+	.popup-cart img{ float:left; vertical-align:middle; margin:0px 5px; }
+	
+	.popup-cart p{ font-family: 'cocogooseregular'; font-size:11px; font-weight:normal; color:#fff; line-height:16px; margin-bottom:0px; background:#f48706; width:50px; min-height:50px; border-radius:50%; padding:5px 5px; text-transform:uppercase; text-align:center; float:left; }
+	.popup-cart p span{ font-size:32px; line-height:25px; }
+		.popup-cart p a{ color:#fff; }
+	
+	/*.popup-cart h3{ font-family: 'ralewaybold'; font-size:15px; font-weight:normal; color:#030a13; line-height:20px; margin-bottom:0px; width:100%; float:left; text-transform:uppercase; margin-top:5px; }
+		.popup-cart h3 a{ color:#030a13; }*/
+		
+		
+		
+@media screen and (max-width: 1099px) {
+	
+	.popup-body{
+		 width: 90%;
+		 padding: 30px 20px;
+	}	
+	.popup-body-twitter{
+		 width: 90%;
+		 padding: 30px 20px;
+	}	
+	
+}
+		
+.woocommerce-MyAccount-content table td {text-align:left;}
+.woocommerce-MyAccount-content table td label{font-size: 1.187rem; line-height: 1.75rem; margin-bottom: 5px; margin-top:30px;}
+		
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Popup <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Stiky <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.stiky-full{ width:100%; float:left; position:fixed; left:0px; top:0px; z-index:9999; background:#fff url(../images/stiky-bg.png) left bottom repeat-x; }
+
+
+
+.stiky-logo{
+			width:100%;
+			padding:35px 0px;
+			float:left;
+			position:relative;
+			text-align:center;
+			}
+			
+	.stiky-logo img{ width:200px; height:auto; }
+
+.stiky-nav{
+			width: 100%;
+			padding:0px 0px 30px 0px;
+			float: left;
+			position: relative;	
+			text-align: center;
+			display:none;
+			z-index:99999;
+		}
+	   
+	
+	.stiky-nav ul { margin: 0px; padding: 0px; }
+
+.stiky-nav ul li { width: 100%; border: none; text-align: center; position: relative; display: inline-block; list-style: none; font-family: 'cocogooseregular'; font-size: 0.593rem; font-weight: normal; color: #69737a; line-height:1.25rem; text-transform:uppercase; border-left: 0px; margin: 0px; padding: 0px; }
+		.stiky-nav ul li a{ padding: 5px 0px; }
+
+	.stiky-nav ul li a, .stiky-nav ul li span{ display: block; position: relative; padding: 0px 5px 0px 5px; color: #788187; text-decoration: none; }
+
+	.stiky-nav ul li a:link, .stiky-nav ul li a:visited { color: #69737a; }
+
+	.stiky-nav ul li:hover > a { background: none; color:#000; text-decoration:none; }
+	
+	.stiky-nav ul li a.fixed { background: none; color:#000; }
+	
+	.stiky-nav ul li:first-child{ border:0px; }
+	
+	.stiky-nav ul li span{ font-family: 'ralewayregular'; font-size:0.781rem; text-transform:none; padding:0px 0px !important; }
+	
+
+    .stiky-nav ul li ul {
+				width: 100%;
+				position: relative;
+				border-top: 2px solid #eee;
+				display: none;
+				}
+
+    .stiky-nav ul li:hover > ul {
+						display: block;
+						left: 0 !important;
+						top: auto;
+    					}
+
+    .stiky-nav ul ul li:hover > ul {
+							left: 0 !important;
+							top: auto;
+							}
+			
+	
+.stiky-btn{
+		  width: auto;
+		  float: left;
+		  position: absolute;
+		  left:2%;
+		  top:50px;
+		  display: block;
+		  cursor: pointer;
+		  color:#000;
+		  z-index:2;
+	}
+	
+	.stiky-btn .fa{ font-size:30px; line-height:30px; }
+
+
+
+.stiky-header-cart{
+		  width:58px;
+		  float:right;
+		  position:absolute;
+		  right:2%;
+		  top:40px;
+		  z-index:9999;
+		  text-align:center;
+		}
+	
+	.stiky-header-cart img{ width:25px; height:25px; float:left; vertical-align:middle; margin:0px 5px 0px 0px; }
+	
+	.stiky-header-cart h3{ font-family: 'ralewaybold'; font-size:0.4rem; font-weight:normal; color:#030a13; line-height:0.65rem; margin-bottom:0px; width:100%; float:left; text-transform:uppercase; margin-top:0px; }
+		.stiky-header-cart h3 a{ color:#030a13; }
+		
+	.stiky-header-cart p{ font-family: 'cocogooseregular'; font-size:0.312rem; font-weight:normal; color:#fff; line-height:0.375rem; margin-bottom:0px; background:#f48706; width:26px; min-height:26px; border-radius:50%; padding:5px 5px; text-transform:uppercase; text-align:center; float:left; }
+	.stiky-header-cart p span{ font-size:1.028rem; line-height:0.75rem; }
+		.stiky-header-cart p a{ color:#fff; }
+			
+
+@media screen and (min-width: 480px) {
+
+.stiky-logo img{ width:320px; height:auto; }
+
+}
+
+
+@media screen and (min-width: 560px) {
+
+.stiky-logo img{ width:400px; height:auto; }
+						
+}
+
+
+@media screen and (min-width: 768px) {
+	
+.stiky-logo img{ width:476px; height:auto; }
+
+
+.stiky-header-cart{
+				  width:92px;
+				}
+	
+	.stiky-header-cart img{ width:40px; height:40px; float:left; vertical-align:middle; margin:0px 5px 0px 8px; }
+	
+	.stiky-header-cart h3{ font-family: 'ralewaybold'; font-size:0.625rem; font-weight:normal; color:#030a13; line-height:0.75rem; margin-bottom:0px; width:100%; float:left; text-transform:uppercase; margin-top:0px; }
+		.stiky-header-cart h3 a{ color:#030a13; }
+		
+	.stiky-header-cart p{ font-family: 'cocogooseregular'; font-size:0.4375rem; line-height:0.4375rem; font-weight:normal; color:#fff; margin-bottom:0px; background:#f48706; width:33px; min-height:33px; border-radius:50%; padding:5px 5px; text-transform:uppercase; text-align:center; float:left; }
+	.stiky-header-cart p span{ font-size:1.5rem; line-height:1.25rem; }
+		.stiky-header-cart p a{ color:#fff; }
+
+
+.stiky-nav ul li { width:auto; position: relative; display: inline-block; list-style: none; font-family: 'cocogooseregular'; font-size: 0.587rem; font-weight: normal; color: #69737a; line-height:0.75rem; text-transform:uppercase; border-left: 2px solid #788187; margin: 0px; padding: 0px; }
+
+	.stiky-nav ul li a, .stiky-nav ul li span{ display: block; position: relative; padding: 0px 12px 0px 17px; color: #788187; text-decoration: none; }
+
+	.stiky-nav ul li a:link, .stiky-nav ul li a:visited { color: #69737a; }
+
+	.stiky-nav ul li:hover > a { background: none; color:#000; text-decoration:none; }
+	
+	.stiky-nav ul li a.fixed { background: none; color:#000; }
+	
+	.stiky-nav ul li:first-child{ border:0px; }
+	
+	.stiky-nav ul li span{ font-family: 'ralewayregular'; font-size:0.781rem; text-transform:none; padding:0px 0px !important; }
+	.stiky-nav ul li strong{ font-weight:normal; color:#000; }	
+	
+}
+
+
+@media screen and (min-width: 992px) {
+
+.stiky-logo img{ width:488px; height:auto; }
+
+.stiky-nav ul li { font-size: 0.65rem; line-height:0.637rem; border-left: 2px solid #788187; }
+
+	.stiky-nav ul li a, .stiky-nav ul li span{ padding: 0px 8px 0px 16px; }
+	
+	.stiky-nav ul li span{ font-size:0.9rem; padding:0px 0px !important; }
+
+.stiky-nav ul li > a { padding-right: 14px; }
+	
+}
+
+
+@media screen and (min-width: 1200px) {
+	
+.stiky-logo img{ width:612px; height:auto; }
+
+
+.stiky-nav ul li { font-size: 0.75rem; line-height:0.75rem; }
+
+	.stiky-nav ul li a, .stiky-nav ul li span{ padding: 0px 15px 0px 24px; }
+	
+	.stiky-nav ul li span{ font-size:1.1rem; }
+
+.stiky-nav ul li > a { padding-right: 20px; }
+
+}
+
+
+@media screen and (min-width: 1500px) {
+	
+/*.stiky-logo img{ width:734px; height:auto; }*/
+
+
+.stiky-nav ul li { font-size: 0.95rem; line-height:0.9rem; }
+
+	.stiky-nav ul li a, .stiky-nav ul li span{ padding: 0px 15px 0px 25px; }
+	
+	.stiky-nav ul li span{ font-size:1.3rem; padding:0px 0px !important; }
+
+
+.stiky-nav ul li > a { padding-right: 25px; }
+	
+}
+
+
+
+@media screen and (min-width: 1800px) {
+
+/*.stiky-logo img{ width:855px; height:auto; }*/
+
+
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Stiky <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */

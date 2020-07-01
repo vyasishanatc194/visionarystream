@@ -1,0 +1,1844 @@
+/************************************************************************************
+HIGHER than 250
+*************************************************************************************/
+@media screen and (min-width: 250px) {
+	
+	
+			
+			
+}
+
+
+/************************************************************************************
+HIGHER than 360
+*************************************************************************************/
+@media screen and (min-width: 360px) {
+			
+			
+			
+}
+
+/************************************************************************************
+HIGHER than 480
+*************************************************************************************/
+@media screen and (min-width: 480px) {
+
+	
+
+			
+			
+}
+
+/************************************************************************************
+HIGHER than 576
+*************************************************************************************/
+@media screen and (min-width: 576px) {
+
+			
+	.logo img{ width:476px; height:auto; }			
+			
+}
+
+/************************************************************************************
+HIGHER than 768
+*************************************************************************************/
+@media screen and (min-width: 768px) {
+	
+	
+.wrapper-1000{
+			  width: 580px;
+			}
+	
+	
+/* -------------------- Start Header -------------------- */
+
+			
+.logo{
+	 width: 100%;
+	 padding:33px 0px 0px;
+	 margin-bottom:20px;
+	 text-align:center;
+	}
+	
+	/*.logo img{ width:65%; }*/
+	
+	
+/* ------------------------ Start Navigation ------------------------ */
+
+nav {
+	width: 100%;
+	padding:0px 0px 50px 0px;
+	float: left;
+	position: relative;	
+	text-align: center;
+	display:inline-block;
+	margin-top:0px;
+}
+
+
+nav ul { margin: 0px; padding: 0px; }
+
+nav ul li { width:auto; position: relative; display: inline-block; list-style: none; font-family: 'cocogooseregular'; font-size: 0.587rem; font-weight: normal; color: #69737a; line-height:0.75rem; text-transform:uppercase; border-left: 2px solid #788187; margin: 0px; padding: 0px; }
+
+	nav ul li a, nav ul li span{ display: block; position: relative; padding: 0px 12px 0px 17px; color: #788187; text-decoration: none; }
+
+	nav ul li a:link, nav ul li a:visited { color: #69737a; }
+
+	nav ul li:hover > a { background: none; color:#000; text-decoration:none; }
+	
+	nav ul li a.fixed { background: none; color:#000; }
+	
+	nav ul li:first-child{ border:0px; }
+	
+	nav ul li span{ font-family: 'ralewayregular'; font-size:0.781rem; text-transform:none; padding:0px 0px !important; }
+	nav ul li strong{ font-weight:normal; color:#000; }
+
+
+.btn{ display: none; }
+
+
+.header-cart{
+		  top:-30%;
+		}
+		
+/* -------------------- End Header -------------------- */
+
+
+/* --------------------- Start Top --------------------- */
+
+section.top{
+			 padding: 4% 0px 50px;
+			}
+			
+	section.top img{ width:100%; }
+			
+	section.top h1{ font-size:2.562rem; line-height:2.375rem; }
+	section.top h1 b{ font-size:2.687rem; }
+	
+	section.top ul{ margin-bottom:30px; }
+	section.top li{ width:10px; height:10px;  margin:0px 5px; }
+		
+section.top2{
+			 padding: 20px 0px 34px;
+			}
+			
+	section.top2 h2{ font-size:3.062rem; line-height:3.062rem; }
+	
+	
+/* --------------------- End Top --------------------- */
+
+
+
+
+
+/* ---------------------- Start Index Body ---------------------- */
+
+section.index-body{
+					padding:45px 0px 56px;
+					}
+					
+		section.index-body h2{ font-size:1.5rem; line-height:1.75rem; margin-bottom:5px; }			
+		section.index-body h3{ font-size:1.1rem; line-height:1.2rem; margin-bottom:15px; }
+		section.index-body h3 strong{ font-size:0.99rem; }
+		
+		section.index-body p{ font-size:0.8rem; line-height:1.1rem; }
+		
+		
+section.index-body2{
+					padding:55px 0px 46px;
+					}
+					
+		section.index-body2 h2{ font-size:1.75rem; line-height:1.75rem; }
+		section.index-body2 h3{ font-size:1.162rem; line-height:1.625rem; margin-bottom:5px; }
+		section.index-body2 h3 strong{ font-size:1.375rem; }
+		section.index-body2 h3 br.first{ display:none; }
+		
+		section.index-body2 p{ font-size:0.8rem; line-height:1.25rem; }
+		section.index-body2 p br{ display:inline-block; }
+		
+	/*.towards-image{
+					padding:45px 8% 0px;
+				  }*/
+		
+		
+section.index-vision{
+					padding:20px 0px 46px;
+					}
+					
+		section.index-vision h2{ font-size:1.75rem; line-height:1.75rem; margin-bottom:10px; }			
+		section.index-vision h3{ font-size:1.5rem; line-height:1.75rem; margin-bottom:15px; }
+		section.index-vision h3 strong{ font-size:1.25rem; }
+		
+		section.index-vision p{ font-size:0.937rem; line-height:1.25rem; }
+		
+		
+		
+.glass-body{
+			width:100%;
+			padding:20px 0px 0px;
+			float:left;
+			position:relative;
+			text-align:center;
+			}
+			
+	.glass-body h3{ font-size:1.5rem !important; line-height:1.687rem !important; width: 288px; }
+	.glass-body h4{ font-size:0.812rem; line-height: 1.25rem; }
+	
+	.glass-left{
+				width:45%;
+				padding:20px 0px 40px;
+				}
+				
+		.glass-left img{ width:244px; }
+				
+		.glass-left p{ font-size:0.7rem !important; line-height:1.25rem !important; }		
+		.glass-left p span{ font-size:0.8rem !important; }	
+				
+	.glass-right{
+				width:45%;
+				padding:20px 0px 0px;
+				}
+				
+		.glass-right img{ width:244px; }
+				
+		.glass-right p{ font-size:0.7rem !important; line-height:1.25rem !important; }
+		.glass-right p span{ font-size:0.8rem !important; }	
+		
+	.add-cart{
+			  width:86px;
+			  padding:6px 8px 0px 0px;
+			  background:url(../images/vs-add-cart4.png) no-repeat;
+			  min-height:38px;
+			  font-size:0.7rem; line-height:0.812rem;
+			  }
+		
+	.add-cart2{
+		  width:86px;
+		  padding:6px 8px 0px 0px;
+		  background:url(../images/vs-add-cart5.png) no-repeat;
+		  min-height:38px;
+		  font-size:0.7rem; line-height:0.812rem;
+		  }	 	
+	
+	.buy-now{
+			  width:88px;
+			  padding:6px 0px 0px 8px;
+			  background:url(../images/vs-buy-now3.png) no-repeat;
+			  min-height:38px;
+			  font-size:0.7rem; line-height:0.812rem; 
+			  }
+		
+		
+		
+.icon-full{
+			width:100%;
+			padding:0px 20px 58px;
+			float:left;
+			position:relative;
+			}
+			
+	.icon-full img{ width:100%; }
+			  
+			  
+			  
+.foundations-text{
+				  width:100%;
+				  padding:0px 0px 0px;
+				  float:left;
+				  position:relative;
+				}
+				
+	.foundations-text p{ font-size:0.7rem !important; line-height:1.1rem !important; margin-bottom:25px; }
+	
+.foundations-image{
+				  width:100%;
+				  padding:0px 3% 0px;
+				  float:left;
+				  position:relative;
+				  text-align:center;
+				}
+						
+				
+	.foundations-image li{ width:33.33%; float:left; padding:0px 12px; margin-bottom:20px; }
+	.foundations-image li img{ width:auto; height:auto; }
+	
+	.foundations-image ul.foundations-menu{ margin-top:12px; }
+	.foundations-image ul.foundations-menu li{ font-size:0.6rem; line-height:1.25rem; margin-bottom:0px; margin-top:0px; width:auto; display:inline-block; border-left:2px solid #4c5a64; line-height:14px; }	
+		.foundations-image ul.foundations-menu li a{ margin:0px 15px; display:block; width:auto; }
+	.foundations-image ul.foundations-menu li:first-child{ border-left:0px; }
+	
+	
+.glass-margin{ margin-top:300px; }
+		  
+/* ---------------------- End Index Body ---------------------- */
+
+
+
+/* ---------------------- Start Footer ---------------------- */
+
+footer{
+	 padding: 35px 0px;
+	}
+	
+	footer img{ width:38px; height:38px; margin:5px 3px; }
+	
+	footer h2{ font-size:0.937rem; line-height:1.25rem; margin-bottom:10px; }	
+	
+	footer p{ font-size:0.625rem; line-height:1.125rem; margin-bottom:10px; }	
+	footer p br{ display:none; }
+
+/* ---------------------- End Footer ---------------------- */
+
+
+
+
+
+/* -------------------- Starr Intro -------------------- */
+
+.intro-full{ border-top:3px solid #fff; border-bottom:194px solid #fff; }
+			
+.intro-block{
+			width:100%;
+			padding:75px 0px 31px;
+			}
+			
+	.intro-block h1{ font-size:2.1rem; line-height:2.1rem; width:394px; margin-bottom:45px; }
+		.intro-block h1 span{ padding:0px 10px; }
+		
+
+.intro-left{
+			width:32%;
+			margin-top:20px;
+			margin-bottom:15px;
+			}
+			
+	.intro-left img{ margin-bottom:30px; }
+			
+	.intro-left h2{ font-size:0.95rem; line-height:0.95rem; margin-bottom:15px; }
+	
+	.intro-left h3{ font-size:0.785rem; line-height:0.869375rem; margin-bottom:5px; }
+	
+	.intro-left p{ font-size:0.695rem; line-height:0.869375rem; margin-bottom:5px; }	
+		
+.intro-right{
+			width:32%;
+			margin-top:20px;
+			margin-bottom:30px;
+			margin-left:2%;
+			}
+			
+	.intro-right img{ margin-bottom:30px; }
+			
+	.intro-right h2{ font-size:0.95rem; line-height:0.95rem; margin-bottom:15px; }
+	
+	.intro-right h3{ font-size:0.785rem; line-height:0.869375rem; margin-bottom:5px; }
+	
+	.intro-right p{ font-size:0.695rem; line-height:0.869375rem; margin-bottom:5px; }
+		
+.intro-img{ margin-top:44px; margin-bottom:0; }
+	.intro-img img{ width:118px; height:auto; margin-bottom:21px; }
+.intro-img2{ margin-top:0px; }
+	.intro-img2 img{ width:80px; height:auto; margin-bottom:12px; }
+.intro-img3{ margin-top:30px; }
+	.intro-img3 img{ width:110px; height:auto; margin-bottom:8px; }
+		
+		
+.intro-bottom{
+			width:100%;
+			padding:66px 0px 0px 0px;
+			}
+			
+	.intro-bottom p{ font-size:0.45875rem; line-height:0.8rem; margin-bottom:28px; }	
+		.intro-bottom p a{ font-size:0.73625rem; padding:5px 10px; margin-top:12px; }
+		
+		
+.intro-footer{
+			 width: 100%;
+			 padding: 12px 0px 25px;
+			}
+	
+	.intro-footer img{ width:42px; height:42px; margin:5px 9px; }
+	
+	.intro-footer h2{ font-size:1rem; line-height:1.25rem; margin-bottom:10px; }	
+	
+	.intro-footer p{ font-size:0.59375rem; line-height:1rem; margin-bottom:10px; }	
+
+/* -------------------- End Intro -------------------- */
+
+
+
+/* ------------------------- Starr SignIn ------------------------- */
+
+.signin-header-full{ padding-bottom:135px; }
+
+.signin-block{
+			  width:100%;
+			  padding:80px 0px 120px;
+			}
+
+.signin-left{
+			width:30%;
+			margin:0px 0px;
+			}
+			
+	.signin-left h2{ font-size:1.75rem; line-height:1.75rem; margin-bottom:20px; }
+			
+	.signin-left p{ font-size:0.8rem; line-height:1.25rem; margin-bottom:20px; }
+		
+.signin-right{
+			width:56%;
+			padding:0px 0px 20px 10%;
+			border-left:2px solid #a2a4a6;
+			border-top:0px;
+			margin:0px 0px;
+			}
+			
+	.signin-right h2{ font-size:1.75rem; line-height:1.75rem; margin-bottom:20px; }
+			
+	.signin-right p{ font-size:0.8rem; line-height:1.25rem; margin-bottom:20px; }	
+		
+.signin-input{ font-size:1.0rem; line-height:1.5rem; width:100%; padding:15px 15px; margin-bottom:30px; }	
+		
+.checkout-button{ font-size:1.0rem; line-height:1.875rem; width:100%; padding:15px 10px; margin-bottom:20px; }
+	
+
+/* ------------------------- End SignIn ------------------------- */
+
+
+
+
+/* --------------------- Start Shopping Cart --------------------- */
+
+.cart-body{
+			width:100%;
+			padding:50px 20px;
+			}
+			
+	.cart-body img{ margin:0px 20px 30px; }
+			
+	.cart-body h2{ font-size:2.25rem; line-height:2.5rem; margin-bottom:30px; }
+	.cart-body p{ font-size:1.5rem; line-height:1.5625rem; margin-bottom:0px; }
+	
+	
+.cart-table{
+			width:100%;
+			padding:50px 0px;
+			}
+			
+	.cart-table table tr td{ width:auto; float:none; text-align:left; padding:0px 0px; text-align:center;}	
+	.cart-table table tr td:nth-child(1){ width:40%; }	
+	.cart-table table tr td:nth-child(2){ width:30%; }	
+	.cart-table table tr td:nth-child(3){ width:10%; }	
+	.cart-table table tr td:nth-child(4){ width:20%; }
+				
+	.cart-table table tr td h3{ font-size:1.375rem; line-height:1.375rem; margin-bottom:15px; }	
+	.cart-table table tr td p{ font-size:1.375rem; line-height:1.375rem; margin-bottom:10px; }
+	
+	.cart-image img{ width:80%; }	
+	
+		
+.cart-bottom{
+			width:100%;
+			padding:50px 10px;
+			}
+			
+	.cart-bottom p{ font-size:1.125rem; line-height:1.5625rem; margin-bottom:20px; }
+
+
+/* --------------------- End Shopping Cart --------------------- */
+
+
+
+
+
+/* --------------------------- Start Prescription --------------------------- */
+
+.prescription-menu{
+					width:100%;
+					padding:30px 0px 100px 0px;
+					}
+					
+	.prescription-menu li{ font-size:1.5625rem; line-height:1.5625rem; margin-bottom:25px; margin-left:15px; margin-right:15px; }
+	.prescription-menu li:first-child{ margin-left:15px; }
+	
+.prescription-body{
+					width:100%;
+					padding:0px 5% 50px 5%;
+					}
+					
+	.prescription-body h2, .woocommerce-billing-fields h2{ font-size:1.5625rem; line-height:1.875rem; padding-left:25px; margin-bottom:20px; }
+	
+	
+.prescription-box{
+				width:100%;
+				padding:20px 60px 20px 25px;
+				margin-bottom:30px;
+				}
+				
+	.prescription-box h3{ font-size:1.4rem; line-height:1.4rem; margin-bottom:10px; }
+	.prescription-box p{ font-size:1.1rem; line-height:1.1rem; margin-bottom:0px; }
+	
+.prescription-table{
+				width:100%;
+				padding:35px 5%;
+				margin-bottom:50px;
+				}
+				
+	.prescription-table table tbody tr td{ font-size:1.2rem; line-height:1.2rem; padding:15px 0px; }
+	
+	.prescription-table table tfoot tr td{ font-size:1.8rem; line-height:2.0rem; padding:15px 0px; border-top:2px solid #535353; }
+	.prescription-table table tfoot tr td span{ font-size:1.5rem; line-height:1.5rem; }
+	
+.review-button{ font-size:1.2rem; line-height:1.4rem; width:100%; padding:25px 10px; }
+	
+
+
+/* --------------------------- End Prescription --------------------------- */
+
+
+
+
+/* --------------------- Start Information --------------------- */
+
+.update-text{ font-size:1.125rem; line-height:1.5625rem; margin-bottom:20px; }
+
+.information-input{ font-size:1.125rem; line-height:1.25rem; width:100%; padding:15px 15px; margin-bottom:20px; }
+
+/* --------------------- End Information --------------------- */
+
+
+		
+			
+}
+
+/************************************************************************************
+HIGHER than 992
+*************************************************************************************/
+@media screen and (min-width: 992px) {
+	
+
+
+/* -------------------- Start Header -------------------- */
+	
+.logo{
+	 padding:40px 0px 10px;
+	 margin-bottom:20px;
+	}
+	
+	.logo img{ width:488px; height:auto; }
+	
+	
+/* ------------------------ Start Navigation ------------------------ */
+
+nav {
+	width: 100%;
+	padding:0px 0px 50px 0px;
+	float: left;
+	position: relative;	
+	text-align: center;
+}
+
+nav ul li { font-size: 0.65rem; line-height:0.637rem; border-left: 2px solid #788187; }
+
+	nav ul li a, nav ul li span{ padding: 0px 8px 0px 16px; }
+	
+	nav ul li span{ font-size:0.9rem; padding:0px 0px !important; }
+
+nav ul li > a { padding-right: 14px; }
+
+/* -------------------- End Header -------------------- */
+
+
+
+/* --------------------- Start Top --------------------- */
+
+section.top{
+			 padding: 12% 0px 50px;
+			}
+			
+	section.top h1{ font-size:2.643rem; line-height:2.375rem; }
+	section.top h1 b{ font-size:2.75rem; }
+	
+	section.top ul{ margin-bottom:38px; }
+	section.top li{ width:10px; height:10px;  margin:0px 5px; }
+		
+section.top2{
+			 padding: 35px 0px 36px;
+			}
+			
+	section.top2 h2{ font-size:3.062rem; line-height:3.062rem; }
+	
+	
+/* --------------------- End Top --------------------- */
+
+
+
+/* ---------------------- Start Index Body ---------------------- */
+
+section.index-body{
+					padding:80px 0px 61px;
+					}
+					
+		section.index-body h2{ font-size:1.5rem; line-height:2.062rem; }
+		section.index-body h3{ font-size:1.212rem; line-height:1.375rem; }
+		section.index-body h3 strong{ font-size:1rem; }
+		
+		section.index-body p{ font-size:0.94rem; line-height:1.24rem; }
+		
+		
+section.index-body2{
+					padding:80px 0px 52px;
+					}
+					
+		section.index-body2 h2{ font-size:1.6rem; line-height:1.75rem; }
+		section.index-body2 h3{ font-size:1.2rem; line-height:1.75rem; }
+		section.index-body2 h3 strong{ font-size:1.25rem; }
+		
+		section.index-body2 p{ font-size:0.937rem; line-height:1.25rem; }
+		
+		/*.towards-image{
+				padding:45px 0px 0px;
+			  }*/
+			  
+		/*.towards-image img{ width:610px; height:288px; }*/
+		
+		
+section.index-vision{
+					padding:20px 0px 72px;
+					}
+					
+		section.index-vision h2{ font-size:2.062rem; line-height:2.062rem; }
+		section.index-vision h3{ font-size:1.212rem; line-height:1.375rem; }
+		section.index-vision h3 strong{ font-size:1rem; }
+		
+		section.index-vision p{ font-size:0.937rem; line-height:1.25rem; }
+		
+		
+		
+		
+.glass-body{
+			width:100%;
+			padding:20px 0px 0px;
+			float:left;
+			position:relative;
+			text-align:center;
+			}
+			
+	.glass-body h3{ font-size:1.25rem !important; line-height:1.25rem !important; width: 294px; }
+	.glass-body h3 span{ font-size:1.3rem !important; }
+	
+	.glass-left{
+				width:45%;
+				padding:20px 0px 25px;
+				}
+				
+		.glass-left img{ width:251px; }
+				
+		.glass-left p{ font-size:0.8rem !important; line-height:1.25rem !important; }
+				
+	.glass-right{
+				width:45%;
+				padding:20px 0px 0px;
+				}
+				
+		.glass-right img{ width:251px; }
+				
+		.glass-right p{ font-size:0.8rem !important; line-height:1.25rem !important; }
+		
+	
+	.add-cart{
+			  width:86px;
+			  padding:9px 20px 15px 10px;
+			  background:url(../images/vs-add-cart4.png) no-repeat;
+			  min-height:38px;
+			  font-size:0.6rem; line-height:0.7rem;
+			  }
+		
+	.add-cart2{
+			  width:86px;
+			  padding:9px 20px 15px 10px;
+			  background:url(../images/vs-add-cart5.png) no-repeat;
+			  min-height:38px;
+			  font-size:0.6rem; line-height:0.7rem;
+			  }
+			  
+	.buy-now{
+			  width:88px;
+			  padding:9px 10px 15px 20px;
+			  background:url(../images/vs-buy-now3.png) no-repeat;
+			  min-height:50px;
+			  font-size:0.6rem; line-height:0.7rem;
+			  }
+		
+		
+.icon-full{
+			width:100%;
+			padding:0px 20px 52px;
+			float:left;
+			position:relative;
+			}
+			
+	.icon-full img{ width:100%; }
+			  
+
+.foundations-text p{ font-size:0.9rem !important; line-height:1.2rem !important; }
+
+
+.foundations-image{
+				  width:100%;
+				  padding:0px 10% 0px;
+				}
+	
+.foundations-image ul.foundations-menu li{ font-size:0.6rem; }	
+	.foundations-image ul.foundations-menu li a{ margin:0px 15px; }
+	
+.glass-margin{ margin-top:400px; }
+
+/* ---------------------- End Index Body ---------------------- */
+
+
+/* ---------------------- Start Footer ---------------------- */
+	
+footer img{ width:38px; height:38px; }
+footer h2{ font-size:1rem; line-height:1.25rem; }	
+footer p{ font-size:0.625rem; line-height:1.125rem; }
+
+/* ---------------------- End Footer ---------------------- */
+
+
+
+
+/* -------------------- Starr Intro -------------------- */
+
+.intro-full{ border-top:3px solid #fff; border-bottom:194px solid #fff; }
+			
+.intro-block{
+			width:100%;
+			padding:75px 0px 21px;
+			}
+			
+	.intro-block h1{ font-size:2.1rem; line-height:2.1rem; width:400px; margin-bottom:45px; }
+		.intro-block h1 span{ padding:0px 10px; }
+		
+
+.intro-left{
+			width:32%;
+			margin-top:20px;
+			margin-bottom:15px;
+			}
+			
+	.intro-left img{ margin-bottom:30px; }
+			
+	.intro-left h2{ font-size:1.008125rem; line-height:1.008125rem; margin-bottom:15px; }
+	
+	.intro-left h3{ font-size:0.806875rem; line-height:0.893125rem; margin-bottom:5px; }
+	
+	.intro-left p{ font-size:0.714375rem; line-height:0.893125rem; margin-bottom:5px; }	
+		
+.intro-right{
+			width:32%;
+			margin-top:20px;
+			margin-bottom:30px;
+			margin-left:2%;
+			}
+			
+	.intro-right img{ margin-bottom:30px; }
+			
+	.intro-right h2{ font-size:1.008125rem; line-height:1.008125rem; margin-bottom:15px; }
+	
+	.intro-right h3{ font-size:0.806875rem; line-height:0.893125rem; margin-bottom:5px; }
+	
+	.intro-right p{ font-size:0.714375rem; line-height:0.893125rem; margin-bottom:5px; }	
+		
+.intro-img{ margin-top:44px; margin-bottom:0; }
+	.intro-img img{ width:118px; height:auto; margin-bottom:21px; }
+.intro-img2{ margin-top:0px; }
+	.intro-img2 img{ width:80px; height:auto; margin-bottom:12px; }
+.intro-img3{ margin-top:30px; }
+	.intro-img3 img{ width:110px; height:auto; margin-bottom:8px; }
+		
+		
+.intro-bottom{
+			width:100%;
+			padding:96px 0px 0px 0px;
+			}
+			
+	.intro-bottom p{ font-size:0.45875rem; line-height:0.8rem; margin-bottom:28px; }	
+		.intro-bottom p a{ font-size:0.73625rem; padding:5px 10px; margin-top:12px; }
+		
+		
+.intro-footer{
+			 width: 100%;
+			 padding: 12px 0px 25px;
+			}
+	
+	.intro-footer img{ width:42px; height:42px; margin:5px 9px; }
+	
+	.intro-footer h2{ font-size:1rem; line-height:1.25rem; margin-bottom:10px; }	
+	
+	.intro-footer p{ font-size:0.59375rem; line-height:1rem; margin-bottom:10px; }	
+
+/* -------------------- End Intro -------------------- */
+
+
+
+/* ------------------------- Starr SignIn ------------------------- */
+
+.signin-header-full{ padding-bottom:200px; }
+
+.signin-block{
+			  width:100%;
+			  padding:200px 0px;
+			}
+
+.signin-left{
+			width:30%;
+			margin:0px 0px;
+			}
+			
+	.signin-left h2{ font-size:1.9rem; line-height:1.9rem; margin-bottom:20px; }
+			
+	.signin-left p{ font-size:1.0rem; line-height:1.5rem; margin-bottom:20px; }
+		
+.signin-right{
+			width:56%;
+			padding:0px 0px 20px 10%;
+			border-left:2px solid #a2a4a6;
+			border-top:0px;
+			margin:0px 0px;
+			}
+			
+	.signin-right h2{ font-size:1.9rem; line-height:1.9rem; margin-bottom:20px; }
+			
+	.signin-right p{ font-size:1.0rem; line-height:1.5rem; margin-bottom:20px; }	
+		
+.signin-input{ font-size:1.5rem; line-height:1.5rem; width:100%; padding:25px 25px; border:2px solid #5e646d; margin-bottom:40px; }	
+		
+.checkout-button{ font-size:1.5rem; line-height:1.5rem; width:100%; padding:25px 10px; border:2px solid #3987ba; margin-bottom:40px; }
+	
+
+/* ------------------------- End SignIn ------------------------- */
+
+
+
+
+/* --------------------- Start Shopping Cart --------------------- */
+
+.cart-body{
+			width:100%;
+			padding:50px 20px;
+			}
+			
+	.cart-body img{ margin:0px 20px 30px; }
+			
+	.cart-body h2{ font-size:2.5rem; line-height:2.5rem; margin-bottom:30px; }
+	.cart-body p{ font-size:1.8rem; line-height:1.5rem; margin-bottom:0px; }
+	
+	
+.cart-table{
+			width:100%;
+			padding:50px 0px;
+			}
+			
+	.cart-table table tr td{ width:auto; float:none; text-align:left; padding:0px 0px; text-align:center }	
+	.cart-table table tr td:nth-child(1){ width:40%; }	
+	.cart-table table tr td:nth-child(2){ width:30%; }	
+	.cart-table table tr td:nth-child(3){ width:10%; }	
+	.cart-table table tr td:nth-child(4){ width:20%; }
+				
+	.cart-table table tr td h3{ font-size:1.375rem; line-height:1.375rem; margin-bottom:15px; }	
+	.cart-table table tr td p{ font-size:1.375rem; line-height:1.375rem; margin-bottom:10px; }
+	
+	.cart-image img{ width:90%; }	
+	
+		
+.cart-bottom{
+			width:100%;
+			padding:50px 10px;
+			}
+			
+	.cart-bottom p{ font-size:1.125rem; line-height:1.5625rem; margin-bottom:20px; }
+
+
+/* --------------------- End Shopping Cart --------------------- */
+
+
+
+
+/* --------------------------- Start Prescription --------------------------- */
+
+.prescription-menu{
+					width:100%;
+					padding:50px 0px 100px 0px;
+					}
+					
+	.prescription-menu li{ font-size:1.875rem; line-height:1.875rem; margin-bottom:25px; margin-left:14%; margin-right:0px; }
+	.prescription-menu li:first-child{ margin-left:0px; }
+	
+.prescription-body{
+					width:100%;
+					padding:0px 5% 80px 5%;
+					}
+					
+	.prescription-body h2, .woocommerce-billing-fields h2{ font-size:1.875rem; line-height:2.1875rem; padding-left:30px; margin-bottom:20px; }
+	
+	
+.prescription-box{
+				width:100%;
+				padding:35px 60px 35px 35px;
+				margin-bottom:30px;
+				}
+				
+	.prescription-box h3{ font-size:1.125rem; line-height:1.125rem; margin-bottom:10px; }
+	.prescription-box p{ font-size:1.125rem; line-height:1.125rem; margin-bottom:0px; }
+	
+.prescription-table{
+				width:100%;
+				padding:35px 5%;
+				margin-bottom:80px;
+				}
+				
+	.prescription-table table tbody tr td{ font-size:1.125rem; line-height:1.375rem; padding:15px 0px; }
+	
+	.prescription-table table tfoot tr td{ font-size:1.875rem; line-height:1.875rem; padding:15px 0px; border-top:2px solid #535353; }
+	.prescription-table table tfoot tr td span{ font-size:1.875rem; line-height:1.875rem; }
+	
+.review-button{ font-size:1.125rem; line-height:1.125rem; width:100%; padding:20px 10px; }
+	
+
+
+/* --------------------------- End Prescription --------------------------- */
+
+
+
+/* --------------------- Start Information --------------------- */
+
+.update-text{ font-size:1.125rem; line-height:1.5625rem; margin-bottom:20px; }
+
+.information-input{ font-size:1.125rem; line-height:1.25rem; width:100%; padding:20px 20px; margin-bottom:20px; }
+
+/* --------------------- End Information --------------------- */
+
+
+
+			
+}
+
+/************************************************************************************
+HIGHER than 1200
+*************************************************************************************/
+@media screen and (min-width: 1200px) {
+	
+	
+.wrapper-1000{
+			  width: 720px;
+			}
+	
+	
+.logo img{ width:612px; height:auto; }
+
+
+/* ------------------------ Start Navigation ------------------------ */
+
+
+nav ul li { font-size: 0.75rem; line-height:0.75rem; }
+
+	nav ul li a, nav ul li span{ padding: 0px 15px 0px 24px; }
+	
+	nav ul li span{ font-size:1.1rem; }
+
+nav ul li > a { padding-right: 20px; }
+
+
+
+.header-cart{
+		  width:92px;
+		  top:-35%;
+		}
+	
+	.header-cart img{ width:40px; height:40px; margin:0px 5px 0px 8px; }
+	
+	.header-cart h3{ font-size:0.625rem; line-height:0.75rem; margin-bottom:0px; width:100%; }		
+	.header-cart p{ font-size:0.4375rem; line-height:0.4375rem; width:33px; min-height:33px; border-radius:50%; padding:5px 5px; }
+	.header-cart p span{ font-size:1.5rem; line-height:1.25rem; }
+
+
+/* -------------------- End Header -------------------- */
+
+
+/* --------------------- Start Top --------------------- */
+
+section.top{
+			 padding: 16% 0px 50px;
+			}
+						
+	section.top h1{ font-size:3.187rem; line-height:3.125rem; }
+	section.top h1 b{ font-size:51px; }
+	
+	section.top ul{ margin-bottom:37px; margin-top:5px; }
+	section.top li{ width:13px; height:14px;  margin:0px 7px; }
+		
+section.top2{
+			 padding: 50px 0px 38px;
+			}
+			
+	section.top2 h2{ font-size:3.625rem; line-height:4.2rem; }
+	
+	
+/* --------------------- End Top --------------------- */
+
+section.index-body{
+					padding:100px 0px 144px;
+					}
+					
+	section.index-body h2{ font-size:2.062rem; line-height:2.062rem; margin-bottom:15px; }
+		section.index-body h3{ font-size:1.562rem; line-height:1.562rem; }
+		section.index-body h3 strong{ font-size:1.273rem; }
+		
+		section.index-body p{ font-size:1.1rem; line-height:1.55rem; margin-bottom:20px; }
+		
+		
+section.index-body2{
+					padding:100px 0px 60px;
+					}	
+	
+				
+		section.index-body2 h2{ font-size:2.062rem; line-height:1.875rem; margin-bottom:5px; }
+		section.index-body2 h3{ font-size:1.452rem; line-height:1.875rem; margin-bottom:15px; }
+		section.index-body2 h3 strong{ font-size:1.937rem; }
+		
+		section.index-body2 p{ font-size:1.025rem; line-height:1.6rem; margin-bottom:60px; }
+		
+		section.index-body2 p strong{ font-family: 'ralewaybold'; }
+		
+		.tweet-icon{ margin-bottom:25px; }
+			.tweet-icon img{ width:38px; height:38px; }
+			
+			
+		/*.towards-image{
+				padding:62px 0px 0px;
+			  }*/
+			  
+		/*.towards-image img{ width:760px; height:360px; }*/
+			
+			
+section.index-vision{
+					padding:25px 0px 109px;
+					}
+					
+	section.index-vision h2{ font-size:2.062rem; line-height:2.062rem; margin-bottom:15px; }
+	section.index-vision h2 img{ width: 246px; }
+		section.index-vision h3{ font-size:1.562rem; line-height:1.562rem; }
+		section.index-vision h3 strong{ font-size:1.273rem; }
+		
+		section.index-vision p{ font-size:1.262rem; line-height:1.75rem; margin-bottom:20px; }
+
+		
+		
+.glass-body h3{ font-size:1.5rem !important; line-height:1.875rem !important; width:370px; }
+		.glass-body h3 span{ padding:0px 12px; }
+		
+	.glass-body h4{ font-size:1rem; line-height:1.25rem; margin-bottom:0px; }
+	
+	
+.glass-left{
+				width:45%;
+				padding:20px 0px 0px;
+				float:left;
+				position:relative;
+				text-align:center;
+				}
+				
+		.glass-left img{ width:314px; margin-bottom:20px; }
+				
+		.glass-left p{ font-size:0.8rem !important; line-height:1rem !important; margin-bottom:5px !important; }
+				
+	.glass-right{
+				width:45%;
+				padding:20px 0px 0px;
+				float:right;
+				position:relative;
+				text-align:center;
+				}
+				
+		.glass-right img{ width:314px; margin-bottom:20px; }
+				
+		.glass-right p{ font-size:0.8rem !important; line-height:1rem !important; margin-bottom:5px !important; }
+		
+		
+		
+		.add-cart{
+			  width:115px;
+			  padding:11px 15px 15px 0px;
+			  background:url(../images/vs-add-cart-115.png) no-repeat;
+			  min-height:50px;
+			  font-size:0.8rem; line-height:1rem;
+			  }
+		
+	.add-cart2{
+			  width:115px;
+			  padding:11px 15px 15px 0px;
+			  background:url(../images/vs-add-cart2b.png) no-repeat;
+			  min-height:50px;
+			  font-size:0.8rem; line-height:1rem;
+			  }
+			  
+	.buy-now{
+			  width:115px;
+			  padding:11px 0px 15px 15px;
+			  background:url(../images/vs-buy-now4.png) no-repeat;
+			  min-height:50px;
+			  font-size:0.8rem; line-height:1rem;
+			  }
+		
+		
+		
+.icon-full{
+			width:100%;
+			padding:0px 20px 62px;
+			float:left;
+			position:relative;
+			}
+			
+	.icon-full img{ width:100%; }
+			  
+			  
+			  
+.foundations-text{
+				  width:100%;
+				  padding:50px 0px 0px;
+				  float:left;
+				  position:relative;
+				}
+				
+	.foundations-text p{ font-family: 'ralewaymedium'; font-size:0.937rem !important; font-weight:normal; color:#1a1f23 !important; line-height:1.562rem !important; margin-bottom:25px; }
+	
+.foundations-image{
+				  width:100%;
+				  padding:20px 10% 0px;
+				}		
+				
+	.foundations-image ul{ padding:0px; margin:0px; }
+	.foundations-image li{ padding:0px; margin:0px; list-style:none; display:inline-block; width:33.33%; float:left; padding:0px 12px; margin-bottom:20px; }
+	
+	.foundations-image ul.foundations-menu li{ font-size:0.8rem; }	
+	.foundations-image ul.foundations-menu li a{ margin:0px 20px; }
+	
+.glass-margin{ margin-top:500px; }	
+	
+/* ---------------------- Start Footer ---------------------- */
+	
+footer img{ width:48px; height:48px; }
+footer h2{ font-size:1.25rem; line-height:1.562rem; margin-bottom:10px; }	
+footer p{ font-size:0.75rem; line-height:1.25; margin-bottom:10px; }
+
+/* ---------------------- End Footer ---------------------- */
+
+
+
+
+
+/* -------------------- Starr Intro -------------------- */
+
+.intro-full{ border-top:3px solid #fff; border-bottom:419px solid #fff; }
+			
+.intro-block{
+			width:100%;
+			padding:95px 0px 49px;
+			}
+			
+	.intro-block h1{ font-size:2.520625rem; line-height:2.520625rem; width:505px; margin-bottom:67px; }
+		.intro-block h1 span{ padding:0px 10px; }
+		
+
+.intro-left{
+			width:32%;
+			margin-top:20px;
+			margin-bottom:15px;
+			}
+			
+	.intro-left img{ margin-bottom:30px; }
+			
+	.intro-left h2{ font-size:1.26rem; line-height:1.26rem; margin-bottom:15px; }
+	
+	.intro-left h3{ font-size:1.008125rem; line-height:1.11625rem; margin-bottom:5px; }
+	
+	.intro-left p{ font-size:0.893125rem; line-height:1.11625rem; margin-bottom:5px; }	
+		
+.intro-right{
+			width:32%;
+			margin-top:20px;
+			margin-bottom:30px;
+			margin-left:2%;
+			}
+			
+	.intro-right img{ margin-bottom:30px; }
+			
+	.intro-right h2{ font-size:1.26rem; line-height:1.26rem; margin-bottom:10px; }
+	
+	.intro-right h3{ font-size:1.008125rem; line-height:1.11625rem; margin-bottom:5px; }
+	
+	.intro-right p{ font-size:0.893125rem; line-height:1.11625rem; margin-bottom:5px; }	
+		
+.intro-img{ margin-top:44px; margin-bottom:0; }
+	.intro-img img{ width:150px; height:auto; margin-bottom:21px; }
+.intro-img2{ margin-top:0px; }
+	.intro-img2 img{ width:105px; height:auto; margin-bottom:12px; }
+.intro-img3{ margin-top:30px; }
+	.intro-img3 img{ width:144px; height:auto; margin-bottom:8px; }
+		
+		
+.intro-bottom{
+			width:100%;
+			padding:110px 0px 0px 0px;
+			}
+			
+	.intro-bottom p{ font-size:0.45875rem; line-height:0.8rem; margin-bottom:28px; }	
+		.intro-bottom p a{ font-size:0.73625rem; padding:5px 10px; margin-top:12px; }
+		
+		
+.intro-footer{
+			 width: 100%;
+			 padding: 12px 0px 25px;
+			}
+	
+	.intro-footer img{ width:42px; height:42px; margin:5px 9px; }
+	
+	.intro-footer h2{ font-size:1rem; line-height:1.25rem; margin-bottom:10px; }	
+	
+	.intro-footer p{ font-size:0.59375rem; line-height:1rem; margin-bottom:10px; }	
+
+/* -------------------- End Intro -------------------- */
+
+
+
+/* ------------------------- Starr SignIn ------------------------- */
+
+.signin-header-full{ padding-bottom:250px; }
+
+.signin-block{
+			  width:100%;
+			  padding:200px 0px;
+			}
+
+.signin-left{
+			width:30%;
+			margin:0px 0px;
+			}
+			
+	.signin-left h2{ font-size:2.356875rem; line-height:2.356875rem; margin-bottom:20px; }
+			
+	.signin-left p{ font-size:1.57125rem; line-height:1.8rem; margin-bottom:20px; }
+		
+.signin-right{
+			width:56%;
+			padding:0px 0px 20px 10%;
+			border-left:2px solid #a2a4a6;
+			border-top:0px;
+			margin:0px 0px;
+			}
+			
+	.signin-right h2{ font-size:2.356875rem; line-height:2.356875rem; margin-bottom:20px; }
+			
+	.signin-right p{ font-size:1.4625rem; line-height:1.4625rem; margin-bottom:20px; }	
+		
+.signin-input{ font-size:1.4625rem; line-height:1.4625rem; width:100%; padding:25px 25px; border:2px solid #5e646d; margin-bottom:40px; }	
+		
+.checkout-button{ font-size:1.96375rem; line-height:1.96375rem; width:100%; padding:25px 10px; border:2px solid #3987ba; margin-bottom:40px; }
+	
+
+/* ------------------------- End SignIn ------------------------- */
+
+
+
+/* --------------------- Start Shopping Cart --------------------- */
+
+.cart-body{
+			width:100%;
+			padding:50px 20px;
+			}
+			
+	.cart-body img{ margin:0px 20px 30px; }
+			
+	.cart-body h2{ font-size:2.5rem; line-height:2.5rem; margin-bottom:30px; }
+	.cart-body p{ font-size:1.8rem; line-height:1.5rem; margin-bottom:0px; }
+	
+	
+.cart-table{
+			width:100%;
+			padding:50px 0px;
+			}
+			
+	.cart-table table tr td{ width:auto; float:none; text-align:left; padding:0px 0px; text-align:center; }	
+	.cart-table table tr td:nth-child(1){ width:40%; }	
+	.cart-table table tr td:nth-child(2){ width:30%; }	
+	.cart-table table tr td:nth-child(3){ width:10%; }	
+	.cart-table table tr td:nth-child(4){ width:20%; }
+				
+	.cart-table table tr td h3{ font-size:1.375rem; line-height:1.375rem; margin-bottom:15px; }	
+	.cart-table table tr td p{ font-size:1.375rem; line-height:1.375rem; margin-bottom:10px; }
+	
+	.cart-image img{ width:auto; }	
+	
+		
+.cart-bottom{
+			width:100%;
+			padding:50px 10px;
+			}
+			
+	.cart-bottom p{ font-size:1.125rem; line-height:1.5625rem; margin-bottom:20px; }
+
+
+/* --------------------- End Shopping Cart --------------------- */
+
+
+
+
+/* --------------------------- Start Prescription --------------------------- */
+
+.prescription-menu{
+					width:100%;
+					padding:150px 0px 200px 0px;
+					}
+					
+	.prescription-menu li{ font-size:2.356871rem; line-height:2.356871rem; margin-bottom:30px; margin-left:14%; margin-right:0px; }
+	.prescription-menu li:first-child{ margin-left:0px; }
+	
+.prescription-body{
+					width:100%;
+					padding:0px 5% 110px 5%;
+					}
+					
+	.prescription-body h2, .woocommerce-billing-fields h2{ font-size:2.356871rem; line-height:2.356871rem; padding-left:50px; margin-bottom:20px; }
+	
+	
+.prescription-box{
+				width:100%;
+				padding:35px 60px 35px 50px;
+				margin-bottom:30px;
+				}
+				
+	.prescription-box h3{ font-size:1.57125rem; line-height:1.57125rem; margin-bottom:10px; }
+	.prescription-box p{ font-size:1.44rem; line-height:1.44rem; margin-bottom:0px; }
+	
+.prescription-table{
+				width:100%;
+				padding:35px 5%;
+				margin-bottom:100px;
+				}
+				
+	.prescription-table table tbody tr td{ font-size:1.44rem; line-height:1.44rem; padding:20px 0px; }
+	
+	.prescription-table table tfoot tr td{ font-size:2.356875rem; line-height:2.356875rem; padding:40px 0px; border-top:2px solid #535353; }
+	.prescription-table table tfoot tr td span{ font-size:1.44rem; line-height:1.44rem; }
+	
+.review-button{ font-size:1.44rem; line-height:1.44rem; width:100%; padding:40px 10px; }
+	
+
+
+/* --------------------------- End Prescription --------------------------- */
+
+
+
+/* --------------------- Start Information --------------------- */
+
+.update-text{ font-size:1.4375rem; line-height:1.875rem; margin-bottom:30px; }
+
+.information-input{ font-size:1.44rem; line-height:1.44rem; width:100%; padding:25px 25px; margin-bottom:30px; }
+
+/* --------------------- End Information --------------------- */
+
+			
+			
+}
+
+/************************************************************************************
+HIGHER than 1500
+*************************************************************************************/
+@media screen and (min-width: 1500px) {
+	
+	
+.wrapper-1000{
+			  width: 860px;
+			}
+	
+	
+.wrapper-1420{
+			  width: 1420px;
+			  padding-left:0px;
+			  padding-right:0px;
+			}
+
+	
+/* -------------------- Start Header -------------------- */
+	
+.logo{
+	 padding:70px 0px 10px;
+	}
+	
+	.logo img{ width:734px; height:auto; }
+	
+	
+/* ------------------------ Start Navigation ------------------------ */
+
+nav {
+	width: 100%;
+	padding:0px 0px 54px 0px;
+}
+
+nav ul li { font-size: 0.95rem; line-height:0.9rem; }
+
+	nav ul li a, nav ul li span{ padding: 0px 15px 0px 25px; }
+	
+	nav ul li span{ font-size:1.3rem; padding:0px 0px !important; }
+
+
+nav ul li > a { padding-right: 25px; }
+
+
+/* -------------------- End Header -------------------- */
+
+
+/* --------------------- Start Top --------------------- */
+
+section.top{
+			 padding: 14% 0px 50px;
+			}
+						
+	section.top h1{ font-size:3.812rem; line-height:3.75rem; }
+	section.top h1 b{ font-size:3.812rem; }
+	
+	section.top ul{ margin-bottom:70px; margin-top:5px; }
+	section.top li{ width:13px; height:14px;  margin:0px 7px; }
+		
+section.top2{
+			 padding: 76px 0px 75px;
+			}
+			
+	section.top2 h2{ font-size:4.25rem; line-height:4.375rem; }
+	
+	
+/* --------------------- End Top --------------------- */
+
+
+
+
+section.index-body{
+					padding:120px 0px 162px;
+					}
+					
+	section.index-body h2{ font-size:2.375rem; line-height:2.375rem; margin-bottom:15px; }
+		section.index-body h3{ font-size:1.812rem; line-height:1.812rem; }
+		section.index-body h3 strong{ font-size:1.5rem; }
+		
+		section.index-body p{ font-size:1.187rem; line-height:1.75rem; margin-bottom:40px; }
+		
+		
+section.index-body2{
+					padding:120px 0px 52px;
+					}	
+	
+				
+		section.index-body2 h2{ font-size:2.437rem; line-height:2.5rem; margin-bottom:5px; }
+		section.index-body2 h3{ font-size:1.75rem; line-height:2.187rem; margin-bottom:15px; }
+		section.index-body2 h3 strong{ font-size:1.937rem; }
+		
+		section.index-body2 p{ font-size:1.187rem; line-height:1.75rem; margin-bottom:45px; }
+		
+		section.index-body2 p strong{ font-family: 'ralewaybold'; }
+		
+		.tweet-icon{ margin-bottom:25px; }
+			.tweet-icon img{ width:46px; height:46px; }
+			
+		/*.towards-image{
+						padding:92px 0px 0px;
+					  }
+			  
+		.towards-image img{ width:914px; height:434px; }*/
+			
+
+section.index-vision{
+					padding:25px 0px 147px;
+					}
+					
+	section.index-vision h2{ font-size:2.375rem; line-height:2.375rem; margin-bottom:15px; }
+	section.index-vision h2 img{ width: 296px; }
+		section.index-vision h3{ font-size:1.812rem; line-height:1.812rem; }
+		section.index-vision h3 strong{ font-size:1.5rem; }
+		
+		section.index-vision p{ font-size:1.187rem; line-height:1.75rem; margin-bottom:20px; }
+		
+		
+.glass-body h3{ font-size:1.875rem !important; line-height:2.375rem !important; width:440px; }
+		.glass-body h3 span{ padding:0px 15px; font-size:1.9rem !important; }
+		
+	.glass-body h4{ font-size:1.25rem; line-height:1.45rem; margin-bottom:0px; }
+	
+	
+.glass-left{
+			width:45%;
+			padding:30px 0px 0px;
+			float:left;
+			position:relative;
+			text-align:center;
+			}
+				
+		.glass-left img{ width:378px; margin-bottom:20px; }
+				
+		.glass-left p{ font-size:1rem !important; line-height:1rem !important; margin-bottom:10px !important; }
+		.glass-left p span{ font-size:1.2rem !important; }
+				
+	.glass-right{
+				width:45%;
+				padding:30px 0px 0px;
+				float:right;
+				position:relative;
+				text-align:center;
+				}
+				
+		.glass-right img{ width:378px; margin-bottom:20px; }
+				
+		.glass-right p{ font-size:1rem !important; line-height:1rem !important; margin-bottom:10px !important; }
+		.glass-right p span{ font-size:1.2rem !important; }
+		
+		
+		
+		.add-cart{
+				  width:178px;
+				  padding:15px 50px 15px 30px;
+				  background:url(../images/vs-add-cart.png) no-repeat;
+				  min-height:78px;font-size:1.375rem; line-height:1.562rem;
+				  }
+			
+		.add-cart2{
+				  width:178px;
+				  padding:15px 50px 15px 30px;
+				  background:url(../images/vs-add-cart2.png) no-repeat;
+				  min-height:78px;
+				  font-size:1.375rem; line-height:1.562rem;
+				  }
+				  
+		.buy-now{
+				  width:180px;
+				  padding:15px 30px 15px 50px;
+				  background:url(../images/vs-buy-now.png) no-repeat;
+				  min-height:78px;
+				  font-size:1.375rem; line-height:1.562rem;
+				  }
+		
+		
+		
+.icon-full{
+			width:100%;
+			padding:0px 20px 81px;
+			float:left;
+			position:relative;
+			}
+			
+	.icon-full img{ width:100%; }
+			  
+			  
+			  
+.foundations-text{
+				  width:100%;
+				  padding:50px 0px 0px;
+				  float:left;
+				  position:relative;
+				}
+				
+	.foundations-text p{ font-size:1.062rem !important; line-height:1.562rem !important; margin-bottom:25px; }
+	
+.foundations-image{
+				  width:100%;
+				  padding:20px 8% 0px;
+				}		
+				
+	.foundations-image ul{ padding:0px; margin:0px; }
+	.foundations-image li{ padding:0px; margin:0px; list-style:none; display:inline-block; width:33.33%; float:left; padding:0px 12px; margin-bottom:20px; }
+	
+	.foundations-image ul.foundations-menu{ margin-top:32px; }
+	.foundations-image ul.foundations-menu li{ font-size:0.875rem; }	
+	.foundations-image ul.foundations-menu li a{ margin:0px 20px; }
+
+.glass-margin{ margin-top:600px; }	
+
+/* ---------------------- Start Footer ---------------------- */
+	
+footer img{ width:58px; height:58px; }
+footer h2{ font-size:1.562rem; line-height:1.875rem; margin-bottom:15px; }	
+footer p{ font-size:0.875; line-height:1.25rem; margin-bottom:15px; }
+
+/* ---------------------- End Footer ---------------------- */
+
+
+
+
+
+/* -------------------- Starr Intro -------------------- */
+
+.intro-full{ border-top:4px solid #fff; border-bottom:505px solid #fff; }
+			
+.intro-block{
+			width:100%;
+			padding:115px 0px 69px;
+			}
+			
+	.intro-block h1{ font-size:3.024375rem; line-height:3.024375rem; width:600px; margin-bottom:82px; }
+		.intro-block h1 span{ padding:0px 10px; }
+		
+
+.intro-left{
+			width:32%;
+			margin-top:20px;
+			margin-bottom:15px;
+			}
+			
+	.intro-left img{ margin-bottom:30px; }
+			
+	.intro-left h2{ font-size:1.511875rem; line-height:1.339375rem; margin-bottom:15px; }
+	
+	.intro-left h3{ font-size:1.21rem; line-height:1.339375rem; margin-bottom:5px; }
+	
+	.intro-left p{ font-size:1.07125rem; line-height:1.339375rem; margin-bottom:5px; }	
+		
+.intro-right{
+			width:32%;
+			margin-top:20px;
+			margin-bottom:30px;
+			margin-left:2%;
+			}
+			
+	.intro-right img{ margin-bottom:30px; }
+			
+	.intro-right h2{ font-size:1.511875rem; line-height:1.339375rem; margin-bottom:15px; }
+	
+	.intro-right h3{ font-size:1.21rem; line-height:1.339375rem; margin-bottom:5px; }
+	
+	.intro-right p{ font-size:1.07125rem; line-height:1.339375rem; margin-bottom:5px; }	
+		
+.intro-img{ margin-top:66px; margin-bottom:0; }
+	.intro-img img{ width:180px; height:auto; margin-bottom:36px; }
+.intro-img2{ margin-top:0px; }
+	.intro-img2 img{ width:125px; height:auto; margin-bottom:29px; }
+.intro-img3{ margin-top:45px; }
+	.intro-img3 img{ width:170px; height:auto; margin-bottom:25px; }
+		
+		
+.intro-bottom{
+			width:100%;
+			padding:160px 0px 0px 0px;
+			}
+			
+	.intro-bottom p{ font-size:0.705625rem; line-height:1.21rem; margin-bottom:28px; }	
+		.intro-bottom p a{ font-size:1.21rem; padding:5px 10px; margin-top:12px; }
+		
+		
+.intro-footer{
+			 width: 100%;
+			 padding: 20px 0px 25px;
+			}
+	
+	.intro-footer img{ width:66px; height:66px; margin:5px 12px; }
+	
+	.intro-footer h2{ font-size:1.511875rem; line-height:1.511875rem; margin-bottom:20px; }	
+	
+	.intro-footer p{ font-size:0.9075rem; line-height:1rem; margin-bottom:25px; }	
+
+/* -------------------- End Intro -------------------- */
+
+
+
+/* --------------------- Start Shopping Cart --------------------- */
+
+.cart-body{
+			width:100%;
+			padding:80px 20px;
+			}
+			
+	.cart-body img{ margin:0px 20px 50px; }
+			
+	.cart-body h2{ font-size:2.356875rem; line-height:2.356875rem; margin-bottom:50px; }
+	.cart-body p{ font-size:1.57125rem; line-height:1.57125rem; margin-bottom:0px; }
+	
+	
+.cart-table{
+			width:100%;
+			padding:50px 0px;
+			}
+			
+	.cart-table table tr td{ width:auto; float:none; text-align:left; padding:0px 0px; text-align:center; }	
+	.cart-table table tr td:nth-child(1){ width:40%; }	
+	.cart-table table tr td:nth-child(2){ width:22%; }	
+	.cart-table table tr td:nth-child(3){ width:16%; }
+	.cart-table table tr td:nth-child(4){ width:22%; }	
+				
+	.cart-table table tr td h3{ font-size:1.431875rem; line-height:1.5rem; margin-bottom:15px; }	
+	.cart-table table tr td p{ font-size:1.431875; line-height:1.5rem; margin-bottom:10px; }
+	
+	.cart-image img{ width:auto; }	
+	
+		
+.cart-bottom{
+			width:100%;
+			padding:50px 10px;
+			}
+			
+	.cart-bottom p{ font-size:1.178125rem; line-height:1.178125rem; margin-bottom:20px; }
+
+
+/* --------------------- End Shopping Cart --------------------- */
+
+
+			
+}
+
+
+
+
+/************************************************************************************
+HIGHER than 1700
+*************************************************************************************/
+@media screen and (min-width: 1700px) {
+	
+	
+.wrapper-1700{
+			  width: 1700px;
+			  padding-left:0px;
+			  padding-right:0px;
+			}
+			
+			
+			
+}
+
+
+
+/************************************************************************************
+HIGHER than 1699 and Less than 1800
+*************************************************************************************/
+@media screen and (min-width: 1800px) {
+	
+.wrapper-1000{
+			  width: 1000px;
+			}
+
+
+.logo img{ width:855px; height:auto; }
+
+
+
+.glass-left img{ width:435px; }
+.glass-right img{ width:435px; }
+
+
+.tweet-icon img {
+				width: 54px;
+				height: 54px;
+				}
+				
+				
+section.index-vision h2 img{ width: 346px; }
+
+
+/* ---------------------- Start Footer ---------------------- */
+	
+footer img{ width:auto; height:auto; }
+footer h2{ font-size:1.75rem; line-height:1.875rem; margin-bottom:20px; }	
+footer p{ font-size:1.062rem; line-height:1.375rem; margin-bottom:20px; }
+
+/* ---------------------- End Footer ---------------------- */	
+
+
+
+/* -------------------- Starr Intro -------------------- */
+
+.intro-full{ border-top:4px solid #fff; border-bottom:590px solid #fff; }
+			
+.intro-block{
+			width:100%;
+			padding:115px 0px 69px;
+			}
+			
+	.intro-block h1{ font-size:3.528125rem; line-height:3.528125rem; width:680px; margin-bottom:82px; }
+		.intro-block h1 span{ padding:0px 10px; }
+		
+
+.intro-left{
+			width:32%;
+			margin-top:20px;
+			margin-bottom:15px;
+			}
+			
+	.intro-left img{ margin-bottom:30px; }
+			
+	.intro-left h2{ font-size:1.76375rem; line-height:1.76375rem; margin-bottom:15px; }
+	
+	.intro-left h3{ font-size:1.41125rem; line-height:1.561875rem; margin-bottom:5px; }
+	
+	.intro-left p{ font-size:1.25rem; line-height:1.561875rem; margin-bottom:5px; }
+		
+.intro-right{
+			width:32%;
+			margin-top:20px;
+			margin-bottom:30px;
+			margin-left:2%;
+			}
+			
+	.intro-right img{ margin-bottom:30px; }
+			
+	.intro-right h2{ font-size:1.76375rem; line-height:1.76375rem; margin-bottom:15px; }
+	
+	.intro-right h3{ font-size:1.41125rem; line-height:1.561875rem; margin-bottom:5px; }
+	
+	.intro-right p{ font-size:1.25rem; line-height:1.561875rem; margin-bottom:5px; }	
+		
+.intro-img{ margin-top:66px; margin-bottom:0; }
+	.intro-img img{ width:210px; height:auto; margin-bottom:36px; }
+.intro-img2{ margin-top:0px; }
+	.intro-img2 img{ width:145px; height:auto; margin-bottom:29px; }
+.intro-img3{ margin-top:45px; }
+	.intro-img3 img{ width:200px; height:auto; margin-bottom:25px; }
+		
+		
+.intro-bottom{
+			width:100%;
+			padding:160px 0px 0px 0px;
+			}
+			
+	.intro-bottom p{ font-size:0.823125rem; line-height:1.41125rem; margin-bottom:28px; }	
+		.intro-bottom p a{ font-size:1.41125rem; padding:5px 10px; margin-top:12px; }
+		
+		
+.intro-footer{
+			 width: 100%;
+			 padding: 20px 0px 25px;
+			}
+	
+	.intro-footer img{ width:77px; height:77px; margin:5px 15px; }
+	
+	.intro-footer h2{ font-size:1.76375rem; line-height:1.76375rem; margin-bottom:20px; }	
+	
+	.intro-footer p{ font-size:1.058125rem; line-height:1.058125rem; margin-bottom:25px; }	
+
+/* -------------------- End Intro -------------------- */
+
+			
+			
+}
+
+
+
+/************************************************************************************
+HIGHER than 1699 and Less than 2100
+*************************************************************************************/
+@media screen and (min-width: 2100px) {
+
+
+
+
+		
+			
+}
+
+
+

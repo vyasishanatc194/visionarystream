@@ -1,0 +1,1475 @@
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+/**
+ * Firefox specific rule
+ */
+
+@-moz-document url-prefix() {
+  body {
+    font-weight: lighter !important;
+  }
+}
+
+/* ==========================================================================
+Dark Header
+========================================================================== */
+.page-template-page-dark
+{
+background: #fff;	
+}
+.page-template-page-dark #darkHeader
+{
+background: rgba(0,0,0,0.0);	
+position: fixed;
+}
+.page-template-page-dark #darkHeader.scroll 
+{
+background: rgba(0,0,0,0.7);
+-webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5);
+box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5);
+height: 75px;
+}
+.page-template-page-dark #darkHeader .container
+{
+padding: 0 0px;	
+}
+.page-template-page-dark #darkHeader .logo
+{
+float: none;
+position: absolute;
+width: auto;
+overflow: hidden;
+text-align: left;	
+}
+.page-template-page-dark #darkHeader .logo img
+{
+height: 40px;
+width: auto;	
+}
+.page-template-page-dark #navTools
+{
+position: absolute;
+top: 19px;
+right: 15px;
+text-align: right;
+width: 50%;
+vertical-align: top;
+}
+.page-template-page-dark #darkHeader .header-cart
+{
+position: relative;
+display: inline-block;
+left: auto;
+right: auto;
+top: auto;
+opacity: 0.75;
+transition: all 500ms ease;
+margin-left: 5px;
+}
+.page-template-page-dark #darkHeader .header-cart img
+{
+height: auto!important	
+}
+.page-template-page-dark #darkHeader .header-cart:hover
+{
+opacity: 1;
+}
+.page-template-page-dark #darkHeader .header-cart h3
+{
+color: #fff;	
+}
+.page-template-page-dark #darkHeader #toggleWrap
+{
+position: relative;
+display: inline-block;
+left: auto;
+right: auto;	
+top: auto;
+vertical-align: top;
+padding-top: 1px;
+}
+.page-template-page-dark #darkHeader #toggleWrap img
+{
+height: 24px;
+width: auto;	
+}
+/* ==========================================================================
+Dark Nav
+========================================================================== */
+.page-template-page-dark #darkHeader nav
+{
+background: rgba(0,0,0,0.0);	
+transition: background 500ms ease;
+}
+.page-template-page-dark #darkHeader nav[style*="display:block"],
+.page-template-page-dark #darkHeader nav[style*="display: block"]
+{
+background: rgba(0,0,0,1);		
+}
+.page-template-page-dark #darkHeader nav ul 
+{
+margin-top: 60px;
+padding-bottom: 15px;
+}
+.page-template-page-dark #darkHeader nav ul a,
+.page-template-page-dark #darkHeader nav ul li a,
+.page-template-page-dark #darkHeader nav ul li a span
+{
+color: #a0a0a0;
+}
+.page-template-page-dark #darkHeader nav ul a:hover,
+.page-template-page-dark #darkHeader nav ul li a:hover,
+.page-template-page-dark #darkHeader nav ul li a:hover span
+{
+color: #fff;
+}
+/* ==========================================================================
+Dark Header Content
+========================================================================== */
+#darkBody
+{
+height: 400px;
+background-size: cover;
+background-position: 50% 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #e4ebde;
+text-align: center;
+}
+#darkBody .headerIntro h1
+{
+font-family: 'Raleway', arial, sans-serif;
+font-size: 45px;
+line-height: 30px;
+margin: 0 0 0 0;
+padding: 0 0 50px 0;	
+font-weight: 100;
+text-transform: lowercase;
+color: #e4ebde;
+}
+#darkBody .headerIntro h1 a
+{
+color: #e4ebde;
+text-decoration: none;
+}
+#darkBody .headerIntro h4
+{
+font-family: 'Raleway', arial, sans-serif;
+font-size: 18px;
+line-height: 26px;
+margin: 0 0 0 0;
+padding: 0 0 15px 0;	
+font-weight: 300;
+color: #e4ebde;
+}
+#darkBody .headerIntro p
+{
+font-family: times, serif;
+font-size: 12px;
+line-height: 16px;
+margin: 0 0 0 0;
+padding: 0 0 0px 0;	
+font-weight: 400;
+color: #e4ebde;
+}
+#darkBody #headerKeywords
+{
+position: absolute;
+bottom: 40px;
+left: 0;
+right: 0;
+text-align: center;	
+}
+#darkBody #headerKeywords ul
+{
+list-style: none;
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+}
+#darkBody #headerKeywords ul li
+{
+color: #e4ebde;
+display: inline;
+padding: 0 10px;
+text-transform: uppercase;
+font-family: 'ralewaysemibold', arial, sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+}
+#darkBody #headerKeywords ul li a
+{
+color: #fff;
+text-decoration: none;
+}
+#darkBody #headerKeywords ul li a.active
+{
+text-decoration: underline;	
+}
+/* ==========================================================================
+Dark Body Content
+========================================================================== */
+#darkContent
+{
+margin: 0px;	
+padding-bottom: 30px;
+}
+#darkContent .bodyContent
+{
+margin: -20px auto 0;
+}
+#darkContent .bodyContent.staticBoxes
+{
+/*height: auto!important;*/
+}
+#darkContent .boxy .boxyInner
+{
+width: 100%;
+height: auto;
+background: #202020;
+padding: 10px;
+position: relative;
+margin: 0px auto 0;
+}
+#darkContent .boxy .triangleBoxy
+{
+width: 0; 
+height: 0; 
+border-bottom: 370px solid #e7e7e7; 
+border-right: 250px solid transparent;
+position: static;
+}
+#darkContent .boxy .triangleBoxy p
+{
+position: absolute;
+color: #202020;
+left: 20px;
+bottom: 20px;
+padding: 0;
+margin: 0;
+font-size: 18px;	
+}
+/* ==========================================================================
+Dark Content Boxes Grid
+========================================================================== */
+#darkContent .boxy
+{
+/*width: 47%!important;*/
+width: 290px;
+height: auto;
+margin: 0 auto 0px!important;
+/*display: inline-block;*/
+vertical-align: top;
+padding: 10px;
+background: none;
+}
+#darkContent .boxy.contentBox a
+{
+display: block;
+width: 100%;
+padding: 25px;
+font-size: 25px;
+line-height: 32px;
+color: #202020;
+font-family: 'Raleway', arial, sans-serif;
+font-weight: 300;
+text-align: left;
+}
+#darkContent .boxy.contentBox a:hover
+{
+text-decoration: none;	
+}
+#darkContent .seoVisible
+{
+position: absolute;
+left: -9999em;
+font-size: 2px;	
+}
+.page-template-page-dark .boxyContent
+{
+width: 290px;
+height: 450px;
+max-width: 90%;
+max-height: 90%;
+margin: auto;
+}
+/* ==========================================================================
+Fixed Size Box Grid  -  Multiple desktop box dimensions by 0.7 for mobile.
+========================================================================== */
+.page-template-page-dark #darkContent .container.boxContainer
+{
+/*width: 1200px;*/
+width: 290px;	
+padding-left: 0;
+padding-right: 0;
+}
+#darkContent #boxGroup
+{
+text-align: center;	
+list-style: none;
+padding: 0;
+margin: 0;
+display: block;
+width: 290px;
+/*width: 1200px;*/
+}
+#darkContent #boxGroup li
+{
+display: inline-block;
+vertical-align: top;
+}
+#darkContent #boxGroup li .boxy
+{
+/*width: 400px;*/
+width: 290px;	
+margin: 0;
+padding: 0;
+overflow: hidden;
+text-align: center;
+}
+#darkContent #boxGroup li .boxy .contentBox 
+{
+/*width: 400px;*/
+width: 290px;
+padding: 0px;
+/*margin: 0 auto 30px;*/
+margin: 0 auto 20px;
+/*display: inline-block;*/
+display: block;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a
+{
+/*width: 370px;*/
+width: 260px;
+padding: 0px;
+margin: 0 15px;
+display: inline-block;
+position: relative;
+overflow: hidden;
+z-index: 100;
+text-decoration: none;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a:before
+{
+content: '';
+position: absolute;
+display: block;
+bottom: 0px;
+/*left: -780px;*/
+height: 1000px;
+width: 1000px;
+left: -810px;
+background: #fff;
+z-index: 200;
+transform: rotate(-39deg);
+transform-origin: bottom right;
+transition: left 750ms ease;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a:hover:before
+{
+/*left: -210px;*/	
+left: -400px;	
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a .boxyPreview
+{
+padding: 20px;
+width: 100%;
+height: auto;
+transition: opacity 600ms ease 100ms;
+opacity: 0;
+position: relative;
+z-index: 400;
+text-align: left;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a .boxyPreview p
+{
+font-size: 16px;
+line-height: 22px;	
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a:hover .boxyPreview
+{
+opacity: 1;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a .boxyContent
+{
+position: absolute;
+/*bottom: 20px;
+left: 20px;*/
+bottom: 15px;
+left: 15px;
+color: #202020;	
+z-index: 300;
+text-align: left;
+/*width: 340px;*/
+width: 230px;
+height: auto;
+transition: opacity 750ms ease;
+/*opacity: 0;*/
+opacity: 1;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a:hover .boxyContent
+{
+opacity: 1;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a .boxyContent h3
+{
+margin: 0;
+padding: 0;
+/*font-size: 1.5rem;*/
+font-size: 1.0rem;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a:after
+{
+content: '';
+position: absolute;
+display: block;
+top: 0;
+left: 0;
+/*height: 436px;
+width: 370px;*/
+height: 305px;
+width: 260px;
+z-index: 300;
+border: 5px solid #202020;
+}
+#darkContent #boxGroup li.box1 .boxy,
+#darkContent #boxGroup li.box1 .boxy .contentBoxInner a
+{
+/*height: 436px;	*/
+height: 305px;	
+}
+#darkContent #boxGroup li.box1 .boxy .contentBoxInner a
+{
+background: #202020;
+}
+
+#darkContent #boxGroup li.box2 .boxy,
+#darkContent #boxGroup li.box2 .boxy .contentBoxInner a
+{
+/*height: 528px;*/
+height: 370px;
+}
+#darkContent #boxGroup li.box2 .boxy .contentBoxInner a
+{
+background: #e1e5ea;
+}
+#darkContent #boxGroup li.box2 .boxy .contentBoxInner a:after
+{
+/*height: 528px;*/
+height: 370px;
+border: 5px solid #e1e5ea;
+}
+
+#darkContent #boxGroup li.box3 .boxy,
+#darkContent #boxGroup li.box3 .boxy .contentBoxInner a
+{
+/*height: 370px;*/
+height: 259px;
+}
+#darkContent #boxGroup li.box3 .boxy .contentBoxInner a
+{
+background: #e5e5e5;
+}
+#darkContent #boxGroup li.box3 .boxy .contentBoxInner a:after
+{
+/*height: 370px;*/
+height: 259px;
+border: 5px solid #e5e5e5;
+}
+
+#darkContent #boxGroup li.box4 .boxy,
+#darkContent #boxGroup li.box4 .boxy .contentBoxInner a
+{
+/*height: 367px;*/	
+height: 257px;
+}
+#darkContent #boxGroup li.box4 .boxy .contentBoxInner a
+{
+background: #e1e1e1;
+}
+#darkContent #boxGroup li.box4 .boxy .contentBoxInner a:after
+{
+/*height: 367px;*/	
+height: 257px;
+border: 5px solid #e1e1e1;
+}
+
+#darkContent #boxGroup li.box5 .boxy,
+#darkContent #boxGroup li.box5 .boxy .contentBoxInner a
+{
+/*height: 438px;*/
+height: 307px;
+}
+#darkContent #boxGroup li.box5 .boxy .contentBoxInner a
+{
+background: #f6efe3;
+}
+#darkContent #boxGroup li.box5 .boxy .contentBoxInner a:after
+{
+/*height: 438px;*/
+height: 307px;
+border: 5px solid #f6efe3;
+}
+
+#darkContent #boxGroup li.box6 .boxy,
+#darkContent #boxGroup li.box6 .boxy .contentBoxInner a
+{
+/*height: 438px;*/
+height: 307px;
+}
+#darkContent #boxGroup li.box6 .boxy .contentBoxInner a
+{
+background: #efe8e6;
+}
+#darkContent #boxGroup li.box6 .boxy .contentBoxInner a:after
+{
+/*height: 438px;*/
+height: 307px;
+border: 5px solid #efe8e6;
+}
+
+#darkContent #boxGroup li.box7 .boxy,
+#darkContent #boxGroup li.box7 .boxy .contentBoxInner a
+{
+/*height: 341px;*/
+height: 239px;
+}
+#darkContent #boxGroup li.box7 .boxy .contentBoxInner a
+{
+background: #eeeef0;
+}
+#darkContent #boxGroup li.box7 .boxy .contentBoxInner a:after
+{
+/*height: 341px;*/
+height: 239px;
+border: 5px solid #eeeef0;
+}
+
+#darkContent #boxGroup li.box8 .boxy,
+#darkContent #boxGroup li.box8 .boxy .contentBoxInner a
+{
+/*height: 475px;*/
+height: 333px;
+}
+#darkContent #boxGroup li.box8 .boxy .contentBoxInner a
+{
+background: #f8f8f8;
+}
+#darkContent #boxGroup li.box8 .boxy .contentBoxInner a:after
+{
+/*height: 475px;*/
+height: 333px;
+border: 5px solid #f8f8f8;
+}
+
+#darkContent #boxGroup li.box9 .boxy,
+#darkContent #boxGroup li.box9 .boxy .contentBoxInner a
+{
+/*height: 340px;*/	
+height: 238px;
+}
+#darkContent #boxGroup li.box9 .boxy .contentBoxInner a
+{
+background: #f2e6f1;
+}
+#darkContent #boxGroup li.box9 .boxy .contentBoxInner a:after
+{
+/*height: 340px;*/	
+height: 238px;
+border: 5px solid #f2e6f1;
+}
+#darkContent #boxGroup li.boxHidden
+{
+display: none;
+	height: 0;
+	overflow: hidden;
+}
+
+/* ==========================================================================
+Dark Footer
+========================================================================== */
+#darkFooter
+{
+padding: 20px 0;	
+}
+#darkFooter p
+{
+font-family: 'ralewaybold', arial, sans-serif;
+font-size: 13px;
+line-height: 18px;
+font-weight: 700;
+}
+#darkFooter p img
+{
+width: auto;
+height: 55px;
+}
+
+/* ==========================================================================
+Dark Modal Content
+========================================================================== */
+div.boxyContent img.aligncenter
+{
+display: block;
+margin: 10px auto;
+}
+
+
+/* =========== BootStrap 4 SMALL (SM) breakpoint =========== */
+@media only screen and (min-width: 576px) {
+
+/* ==========================================================================
+Dark Header @SM
+========================================================================== */
+.page-template-page-dark #darkHeader.scroll 
+{
+height: 90px;
+}
+.page-template-page-dark #darkHeader .logo
+{
+padding-top: 25px;
+}
+.page-template-page-dark #darkHeader .logo img
+{
+height: 45px;
+width: auto;
+}
+.page-template-page-dark #navTools
+{
+top: 25px;
+right: 15px;
+width: 40%;
+}
+.page-template-page-dark #darkHeader .header-cart
+{
+right: auto;
+top: auto;	
+margin-left: 5px;
+}
+.page-template-page-dark #darkHeader #toggleWrap
+{
+left: auto;
+right: auto;	
+top: auto;
+padding-top: 0px;
+}
+.page-template-page-dark #darkHeader #toggleWrap img
+{
+height: 30px;
+width: auto;	
+}
+
+.page-template-page-dark .boxyContent
+{
+width: 450px;
+height: 280px;
+}
+	
+}
+
+@media only screen and (min-width: 768px) {
+	
+/* ==========================================================================
+Dark Header @MD
+========================================================================== */
+.page-template-page-dark #darkHeader.scroll 
+{
+background: rgba(0,0,0,0.8);
+height: auto;
+}
+.page-template-page-dark #darkHeader .container
+{
+padding: 0 0px;	
+height: 90px;
+}
+.page-template-page-dark #darkHeader .logo img
+{
+height: 50px;
+width: auto;	
+}
+.page-template-page-dark #navTools
+{
+top: 30px;
+width: 30%;
+}
+.page-template-page-dark #darkHeader .header-cart
+{
+right: auto;
+top: auto;	
+}
+.page-template-page-dark #darkHeader #toggleWrap
+{
+left: auto;
+right: auto;	
+top: auto;
+padding-top: 2px;
+}
+.page-template-page-dark #darkHeader #toggleWrap .btn
+{
+opacity: 1;
+}
+.page-template-page-dark #darkHeader #toggleWrap img
+{
+height: 25px;
+width: auto;	
+}
+/* ==========================================================================
+Dark Nav @MD
+========================================================================== */
+.page-template-page-dark #darkHeader nav[style*="display:block"],
+.page-template-page-dark #darkHeader nav[style*="display: block"]
+{
+background: rgba(0,0,0,0);		
+}
+.page-template-page-dark #darkHeader nav ul 
+{
+margin-top: 104px;
+padding-bottom: 20px;
+}
+/* ==========================================================================
+Dark Header Content @MD
+========================================================================== */
+#darkBody
+{
+height: 500px;
+}
+#darkBody .headerIntro
+{
+padding: 0 100px;	
+}
+#darkBody .headerIntro h1
+{
+font-size: 50px;
+line-height: 30px;
+padding: 0 0 35px 0;
+}
+#darkBody .headerIntro h4
+{
+font-size: 20px;
+line-height: 27px;
+padding: 0 0 10px 0;	
+}
+#darkBody .headerIntro p
+{
+font-size: 14px;
+line-height: 18px;
+padding: 0 0 0px 0;
+}
+#darkBody #headerKeywords
+{
+bottom: 60px;
+}
+#darkBody #headerKeywords ul li
+{
+padding: 0 0px;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.1em;
+display: inline-block;
+width: 25%;
+text-align: center;
+}/*
+#darkBody #headerKeywords ul li:nth-child(1)
+{
+text-align: right;
+}
+#darkBody #headerKeywords ul li:nth-child(3)
+{
+text-align: left;
+}*/
+/* ==========================================================================
+Dark Body Content @MD
+========================================================================== */
+#darkContent
+{
+margin: 0px;	
+padding-bottom: 130px;
+}
+#darkContent .bodyContent
+{
+text-align: center;
+margin: -40px auto 0;
+}
+/* ==========================================================================
+Dark Content Boxes Grid @MD
+========================================================================== */
+#darkContent .boxy.contentBox
+{
+/*width: 47%!important;*/
+width: 300px;
+margin: 0 auto 0px!important;
+/*display: inline-block;*/
+vertical-align: top;
+padding: 10px;
+background: none;
+}
+#darkContent .boxy.contentBox a
+{
+padding: 25px;
+font-size: 25px;
+line-height: 32px;
+}
+.page-template-page-dark .boxyContent
+{
+width: 550px;
+height: auto;
+}
+
+/* ==========================================================================
+Dark Footer @MD
+========================================================================== */
+#darkFooter
+{
+padding: 25px 0;	
+}
+#darkFooter p
+{
+font-family: 'ralewaybold', arial, sans-serif;
+font-size: 13px;
+line-height: 18px;
+font-weight: 700;
+letter-spacing: 0.05em;
+}
+#darkFooter p img
+{
+height: 65px;
+}
+	
+}
+
+@media only screen and (min-width: 992px) {
+	
+/* ==========================================================================
+Dark Header @LG
+========================================================================== */
+.page-template-page-dark .container
+{
+width: 650px;
+}
+.page-template-page-dark #darkHeader .container
+{
+position: relative;	
+}
+.page-template-page-dark #darkHeader .logo
+{
+left: -15px;	
+}
+/* ==========================================================================
+Dark Header Content @LG
+========================================================================== */
+#darkBody .headerIntro
+{
+padding: 0 20px;	
+}
+#darkBody #headerKeywords ul li
+{
+width: 20%;
+}
+/* ==========================================================================
+Dark Content Boxes Grid @LG
+========================================================================== */
+.page-template-page-dark #darkContent .container
+{
+width: 800px;	
+}
+#darkContent .boxy.contentBox
+{
+width: 250px;
+/*max-width: 350px;*/
+margin: 0 auto 0px;
+}
+#darkContent .boxy.contentBox a
+{
+padding: 25px;
+font-size: 25px;
+line-height: 32px;
+}
+.page-template-page-dark .boxyContent
+{
+width: 750px;
+}
+	
+/* ==========================================================================
+Fixed Size Box Grid  @LG  -  Boxes up to full size, but still single col
+========================================================================== */
+.page-template-page-dark #darkContent .container.boxContainer
+{
+/*width: 1200px;*/
+width: 400px;
+}
+#darkContent #boxGroup
+{
+width: 400px;
+/*width: 1200px;*/
+}
+#darkContent #boxGroup li .boxy
+{
+width: 400px;
+}
+#darkContent #boxGroup li .boxy .contentBox 
+{
+width: 400px;
+/*margin: 0 auto 30px;*/
+/*display: inline-block;*/
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a
+{
+width: 370px;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a:before
+{
+left: -720px;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a:hover:before
+{
+left: -210px;	
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a .boxyContent
+{
+bottom: 20px;
+left: 20px;
+width: 340px;
+/*opacity: 0;*/
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a:hover .boxyContent
+{
+opacity: 1;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a .boxyContent h3
+{
+font-size: 1.5rem;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a:after
+{
+height: 436px;
+width: 370px;
+border-width: 9px;
+}
+#darkContent #boxGroup li.box1 .boxy,
+#darkContent #boxGroup li.box1 .boxy .contentBoxInner a
+{
+height: 436px;	
+}
+
+#darkContent #boxGroup li.box2 .boxy,
+#darkContent #boxGroup li.box2 .boxy .contentBoxInner a
+{
+height: 528px;
+}
+#darkContent #boxGroup li.box2 .boxy .contentBoxInner a:after
+{
+height: 528px;
+border-width: 9px;
+}
+
+#darkContent #boxGroup li.box3 .boxy,
+#darkContent #boxGroup li.box3 .boxy .contentBoxInner a
+{
+height: 370px;
+}
+#darkContent #boxGroup li.box3 .boxy .contentBoxInner a:after
+{
+height: 370px;
+border-width: 9px;
+}
+
+#darkContent #boxGroup li.box4 .boxy,
+#darkContent #boxGroup li.box4 .boxy .contentBoxInner a
+{
+height: 367px;
+}
+#darkContent #boxGroup li.box4 .boxy .contentBoxInner a:after
+{
+height: 367px;
+border-width: 9px;
+}
+
+#darkContent #boxGroup li.box5 .boxy,
+#darkContent #boxGroup li.box5 .boxy .contentBoxInner a
+{
+height: 438px;
+}
+#darkContent #boxGroup li.box5 .boxy .contentBoxInner a:after
+{
+height: 438px;
+border-width: 9px;
+}
+
+#darkContent #boxGroup li.box6 .boxy,
+#darkContent #boxGroup li.box6 .boxy .contentBoxInner a
+{
+height: 438px;
+}
+#darkContent #boxGroup li.box6 .boxy .contentBoxInner a:after
+{
+height: 438px;
+border-width: 9px;
+}
+
+#darkContent #boxGroup li.box7 .boxy,
+#darkContent #boxGroup li.box7 .boxy .contentBoxInner a
+{
+height: 341px;
+}
+#darkContent #boxGroup li.box7 .boxy .contentBoxInner a:after
+{
+height: 341px;
+border-width: 9px;
+}
+
+#darkContent #boxGroup li.box8 .boxy,
+#darkContent #boxGroup li.box8 .boxy .contentBoxInner a
+{
+height: 475px;
+}
+#darkContent #boxGroup li.box8 .boxy .contentBoxInner a:after
+{
+height: 475px;
+border-width: 9px;
+}
+
+#darkContent #boxGroup li.box9 .boxy,
+#darkContent #boxGroup li.box9 .boxy .contentBoxInner a
+{
+height: 340px;
+}
+#darkContent #boxGroup li.box9 .boxy .contentBoxInner a:after
+{
+height: 340px;
+border-width: 9px;
+}
+	
+}
+
+@media only screen and (min-width: 1200px) {
+
+/* ==========================================================================
+Dark Header @XL
+========================================================================== */
+.page-template-page-dark .container
+{
+width: 815px;
+}
+.page-template-page-dark #darkHeader .container
+{
+padding: 0 0px;	
+height: 150px;
+}
+.page-template-page-dark #darkHeader .logo
+{
+padding-top: 45px;
+}
+.page-template-page-dark #darkHeader .logo img
+{
+height: 60px;
+width: auto;	
+}
+.page-template-page-dark #navTools
+{
+top: 42px;
+}
+.page-template-page-dark #darkHeader .header-cart
+{
+right: auto;
+top: auto;	
+margin-left: 10px;
+}
+.page-template-page-dark #darkHeader #toggleWrap
+{
+right: auto;	
+top: auto;
+padding-top: 6px;
+}
+.page-template-page-dark #darkHeader #toggleWrap img
+{
+height: 30px;
+width: auto;	
+}
+/* ==========================================================================
+Dark Nav @XL
+========================================================================== */
+.page-template-page-dark #darkHeader nav ul 
+{
+margin-top: 132px;
+padding-bottom: 25px;
+}
+/* ==========================================================================
+Dark Header Content @XL
+========================================================================== */
+#darkBody
+{
+height: 615px;
+}
+#darkBody .headerIntro
+{
+padding: 0 40px;	
+}
+#darkBody .headerIntro h1
+{
+font-size: 62px;
+line-height: 62px;
+padding: 0 0 50px 0;
+}
+#darkBody .headerIntro h4
+{
+font-size: 25px;
+line-height: 30px;
+padding: 0 0 18px 0;	
+}
+#darkBody .headerIntro p
+{
+font-size: 17px;
+line-height: 23px;
+}
+#darkBody #headerKeywords
+{
+bottom: 80px;
+}
+#darkBody #headerKeywords ul li
+{
+padding: 0 40px;
+font-size: 25px;
+line-height: 30px;
+}
+/* ==========================================================================
+Dark Body Content @XL
+========================================================================== */
+#darkContent
+{	
+padding-bottom: 250px;
+}
+#darkContent .bodyContent
+{
+margin-top: -50px;	
+}
+/* ==========================================================================
+Dark Content Boxes Grid @XL
+========================================================================== */
+.page-template-page-dark #darkContent .container
+{
+width: 880px;	
+}
+#darkContent .boxy.contentBox
+{
+width: 280px;
+}
+.page-template-page-dark .boxyContent
+{
+width: 900px;
+}
+	
+/* ==========================================================================
+Fixed Size Box Grid  @XL
+========================================================================== */
+.page-template-page-dark #darkContent .container.boxContainer
+{
+width: 1200px;
+}
+#darkContent #boxGroup
+{
+width: 1200px;
+}
+#darkContent #boxGroup li .boxy
+{
+width: 400px;
+}
+#darkContent #boxGroup li .boxy .contentBox 
+{
+width: 400px;
+margin: 0 auto 30px;
+display: inline-block;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a
+{
+width: 370px;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a:before
+{
+left: -720px;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a:hover:before
+{
+left: -210px;	
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a .boxyContent
+{
+bottom: 20px;
+left: 20px;
+width: 340px;
+opacity: 0;
+}
+#darkContent #boxGroup li .boxy .contentBoxInner a:hover .boxyContent
+{
+opacity: 1;
+}
+	
+/* ==========================================================================
+Dark Footer @XL
+========================================================================== */
+#darkFooter
+{
+padding: 30px 0;	
+}
+#darkFooter p
+{
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.05em;
+}
+#darkFooter p img
+{
+height: 80px;
+}
+	
+}
+
+@media only screen and (min-width: 1500px) {
+
+/* ==========================================================================
+Dark Header @1500
+========================================================================== */
+.page-template-page-dark .container
+{
+width: 975px;
+}
+.page-template-page-dark #darkHeader .container
+{
+padding: 0 0px;	
+height: 185px;
+}
+.page-template-page-dark #darkHeader .logo
+{
+padding-top: 55px;
+}
+.page-template-page-dark #darkHeader .logo img
+{
+height: 75px;
+width: auto;	
+}
+.page-template-page-dark #navTools
+{
+top: 55px;
+}
+.page-template-page-dark #darkHeader .header-cart
+{
+right: auto;
+top: auto;
+margin-left: 15px;	
+}
+.page-template-page-dark #darkHeader #toggleWrap
+{
+right: auto;	
+top: auto;
+padding-top: 3px;
+}
+.page-template-page-dark #darkHeader #toggleWrap img
+{
+height: 36px;
+width: auto;	
+}
+/* ==========================================================================
+Dark Nav @1500
+========================================================================== */
+.page-template-page-dark #darkHeader nav ul 
+{
+margin-top: 160px;
+}
+/* ==========================================================================
+Dark Header Content @1500
+========================================================================== */
+#darkBody
+{
+height: 740px;
+}
+#darkBody .headerIntro
+{
+padding: 0 80px;	
+}
+#darkBody .headerIntro h1
+{
+font-size: 75px;
+line-height: 75px;
+padding: 0 0 60px 0;
+}
+#darkBody .headerIntro h4
+{
+font-size: 30px;
+line-height: 38px;
+padding: 0 0 23px 0;	
+}
+#darkBody .headerIntro p
+{
+font-size: 20px;
+line-height: 24px;
+}
+#darkBody #headerKeywords
+{
+bottom: 100px;
+}
+#darkBody #headerKeywords ul li
+{
+padding: 0 50px;
+font-size: 30px;
+line-height: 35px;
+}
+/* ==========================================================================
+Dark Body Content @1500
+========================================================================== */
+#darkContent .bodyContent
+{
+margin-top: -60px;	
+}
+/* ==========================================================================
+Dark Content Boxes Grid @1500
+========================================================================== */
+.page-template-page-dark #darkContent .container
+{
+width: 975px;	
+}
+#darkContent .boxy.contentBox
+{
+width: 310px;
+}
+/* ==========================================================================
+Dark Footer @1500
+========================================================================== */
+#darkFooter p
+{
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.05em;
+}
+#darkFooter p img
+{
+height: 95px;
+}
+
+}
+
+@media only screen and (min-width: 1800px) {
+
+/* ==========================================================================
+Dark Header @1800
+========================================================================== */
+.page-template-page-dark .container
+{
+width: 1140px;
+}
+.page-template-page-dark #darkHeader .container
+{
+padding: 0 0px;	
+height: 215px;
+}
+.page-template-page-dark #darkHeader .logo
+{
+padding-top: 65px;
+}
+.page-template-page-dark #darkHeader .logo img
+{
+height: 85px;
+width: auto;	
+}
+.page-template-page-dark #navTools
+{
+top: 60px;
+}
+.page-template-page-dark #darkHeader .header-cart
+{
+right: auto;
+top: auto;	
+margin-left: 20px;
+}
+.page-template-page-dark #darkHeader #toggleWrap
+{
+right: auto;	
+top: auto;
+padding-top: 8px;
+}
+.page-template-page-dark #darkHeader #toggleWrap img
+{
+height: 40px;
+width: auto;	
+}
+/* ==========================================================================
+Dark Nav @1800
+========================================================================== */
+.page-template-page-dark #darkHeader nav ul 
+{
+margin-top: 190px;
+}
+/* ==========================================================================
+Dark Header Content @1800
+========================================================================== */
+#darkBody
+{
+height: 860px;
+}
+#darkBody .headerIntro
+{
+padding: 0 100px;	
+}
+#darkBody .headerIntro h1
+{
+font-size: 87px;
+line-height: 87px;
+padding: 0 0 70px 0;
+}
+#darkBody .headerIntro h4
+{
+font-size: 35px;
+line-height: 42px;
+padding: 0 0 25px 0;	
+}
+#darkBody .headerIntro p
+{
+font-size: 24px;
+line-height: 28px;
+}
+#darkBody #headerKeywords
+{
+bottom: 120px;
+}
+#darkBody #headerKeywords ul li
+{
+padding: 0 58px;
+font-size: 35px;
+line-height: 40px;
+}
+/* ==========================================================================
+Dark Body Content @1800
+========================================================================== */
+#darkContent .bodyContent
+{
+margin-top: -70px;	
+}
+/* ==========================================================================
+Dark Content Boxes Grid @1500
+========================================================================== */
+.page-template-page-dark #darkContent .container
+{
+width: 1170px;	
+}
+#darkContent .boxy.contentBox
+{
+width: 350px;
+}
+/* ==========================================================================
+Dark Footer @1800
+========================================================================== */
+#darkFooter p
+{
+font-size: 18px;
+line-height: 22px;
+}
+#darkFooter p img
+{
+height: 110px;
+}
+	
+}

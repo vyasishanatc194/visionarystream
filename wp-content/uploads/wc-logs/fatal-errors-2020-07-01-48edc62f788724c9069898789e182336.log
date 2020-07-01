@@ -1,0 +1,42 @@
+2020-07-01T04:45:57+00:00 CRITICAL syntax error, unexpected '?>' in G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-content\themes\visionarystream\page-2.php on line 188
+
+2020-07-01T05:39:10+00:00 CRITICAL Uncaught Error: Call to undefined function get_ther_ID() in G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-content\themes\visionarystream\page-2.php:296
+Stack trace:
+#0 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-includes\template-loader.php(106): include()
+#1 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-blog-header.php(19): require_once('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\index.php(17): require('G:\\xampp\\htdocs...')
+#3 {main}
+  thrown in G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-content\themes\visionarystream\page-2.php on line 296
+
+2020-07-01T05:39:21+00:00 CRITICAL Uncaught Error: Call to undefined function get_ther_ID() in G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-content\themes\visionarystream\page-2.php:296
+Stack trace:
+#0 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-includes\template-loader.php(106): include()
+#1 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-blog-header.php(19): require_once('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\index.php(17): require('G:\\xampp\\htdocs...')
+#3 {main}
+  thrown in G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-content\themes\visionarystream\page-2.php on line 296
+
+2020-07-01T05:41:12+00:00 CRITICAL Uncaught Error: Call to undefined function get_ther_ID() in G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-content\themes\visionarystream\page-2.php:296
+Stack trace:
+#0 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-includes\template-loader.php(106): include()
+#1 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-blog-header.php(19): require_once('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\index.php(17): require('G:\\xampp\\htdocs...')
+#3 {main}
+  thrown in G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-content\themes\visionarystream\page-2.php on line 296
+
+2020-07-01T10:09:00+00:00 CRITICAL Uncaught Error: Call to undefined function wp_query() in G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-content\themes\visionarystream\page.php:31
+Stack trace:
+#0 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-includes\template-loader.php(106): include()
+#1 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-blog-header.php(19): require_once('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\index.php(17): require('G:\\xampp\\htdocs...')
+#3 {main}
+  thrown in G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-content\themes\visionarystream\page.php on line 31
+
+2020-07-01T10:09:20+00:00 CRITICAL Uncaught Error: Call to undefined function WP_Query() in G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-content\themes\visionarystream\page.php:31
+Stack trace:
+#0 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-includes\template-loader.php(106): include()
+#1 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-blog-header.php(19): require_once('G:\\xampp\\htdocs...')
+#2 G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\index.php(17): require('G:\\xampp\\htdocs...')
+#3 {main}
+  thrown in G:\xampp\htdocs\wordpress\visionarystrem\visionarystream\wp-content\themes\visionarystream\page.php on line 31
+
